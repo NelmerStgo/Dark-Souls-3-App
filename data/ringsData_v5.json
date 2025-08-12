@@ -1,0 +1,1406 @@
+{
+    "anillos": [
+        {
+            "imagen": "Anillo_de_Rubí_de_Aldrich",
+            "nombre": "Rubí de Aldrich",
+            "descripcion": "Anillo deforme dejado por Aldrich, Santo de la Oscuridad.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo suelta el Condenado Profundo en la catedral de Anor Londo.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Recupera 85 PS por cada ataque crítico exitoso, como estocadas y ataques por la espalda"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Zafiro_de_Aldrich",
+            "nombre": "Zafiro de Aldrich",
+            "descripcion": "Anillo deforme dejado por Aldrich, Santo de la Oscuridad.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo suelta el Condenado Profundo que se encuentra en la habitación detrás del primer Caballero de la Catedral en el piso más bajo de la Catedral de la Oscuridad, antes de la zona abierta donde se encuentran los dos gigantes.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Recupera 15 PS por cada ataque crítico exitoso, como estocadas y ataques por la espalda"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_estus_de_ceniza",
+            "nombre": "Anillo de estus de ceniza",
+            "descripcion": "Un anillo cristalino gris creado a partir de fragmentos.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en las Tumbas Olvidadas. Desde la primera hoguera, hay que avanzar y girar a la izquierda en el primer camino. El anillo está custodiado por varios Cuervos y Cuervos cuentacuentos.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta PC restaurados por el frasco de estus de ceniza en un 20%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_dragón_rugiente",
+            "nombre": "Anillo de dragón rugiente",
+            "descripcion": "Anillo especial otorgado a aquellos que son dignos de emprender el camino del descubrimiento en Vinheim, hogar de la hechicería.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en la Mazmorra de Irithyll. Requiere la Llave del fugado. Una vez que se haya obtenido la llave, desde la hoguera Mazmorra de Irithyll, avanzar hacia el área principal del bloque de celdas y girar a la derecha. Seguir recto hasta llegar al final del pasillo en el piso superior y abrir la ventana con barrotes al final. El anillo puede ser saqueado de un cadáver que se encuentra en uno de los salientes de roca.",
+                    "otros_detalles": {
+                        "peso": "1.0",
+                        "efecto": "Potencia los hechizos en un 25%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_mordisco_sangriento",
+            "nombre": "Anillo de mordisco sangriento",
+            "descripcion": "Uno de los anillos de mordisco nativos de Carim. Aumenta la resistencia a la hemorragia.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en el Asentamiento de no muertos. Lo suelta la rata gigante que habita las alcantarillas.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la resistencia a la hemorragia en 90 puntos"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Se encuentra en el Lago Ardiente, en un cadáver que yace a la derecha de la balista gigante.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la resistencia a la hemorragia en 190 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_lágrima_de_piedra_azul",
+            "nombre": "Anillo de lágrima de piedra azul",
+            "descripcion": "Anillo con una rara piedra de lágrima engarzada. Aumenta temporalmente la absorción de daño con PS bajos.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Greirat se lo regala al jugador cuando este acepta ayudarle.",
+                    "otros_detalles": {
+                        "peso": "1.1",
+                        "efecto": "Aumenta la absorción de daño en un 20% cuando los PS se encuentran por debajo del 20%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_la_calamidad",
+            "nombre": "Anillo de la calamidad",
+            "descripcion": "Anillo hecho con el ojo naranja de un dragón funesto. Recibe el doble de daño.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en el Pico del Archidragón. Se obtiene al realizar el gesto Camino del dragón delante de la estatua del dragón en el Mausoleo dragón.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "El jugador recibirá el doble de daño al usar el anillo"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_sangre_de_Carthus",
+            "nombre": "Anillo de sangre de Carthus",
+            "descripcion": "Anillo que llevan los guerreros de Carthus, el reino de arena.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en las Catacumbas de Carthus, al fondo del pasillo donde hay varios Esqueletos rueda y Carnes podridas retorciéndose.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Potencia la invencibilidad al rodar, pero reduce la absorción de daño en 15 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Carthus",
+            "nombre": "Anillo de Carthus",
+            "descripcion": "Anillo que llevan los guerreros de Carthus, el reino de arena.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en las Catacumbas de Carthus, ubicado al final de un callejón lleno de urnas antiguas.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Potencia la destreza en 3 puntos y oculta al portador al rodar"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_mordisco_de_hielo",
+            "nombre": "Anillo de mordisco de hielo",
+            "descripcion": "Uno de los anillos de mordisco nativos de Carim.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Obtenido de la Hermana Friede al hablar con ella por segunda vez en la catedral del Mundo Pintado de Ariandel.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la resistencia a la congelación en 140 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Chloranthy",
+            "nombre": "Anillo de Chloranthy",
+            "descripcion": "El nombre de este viejo anillo hace referencia a la flor que lo adorna, pero hace tiempo que perdió su brillo.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en el fondo de una torre en el Asentamiento de no muertos. Hay que saltar desde el ascensor que conduce al Camino de los Sacrificios mientras sube, hacia un andamio de madera, continuando por el único camino disponible y luego enfrentando al Demonio junto a Siegward. Una vez que se llegue al tejado de la siguiente casa, hay que saltar hacia una torre cercana y entrar. Hay que bajar hasta el fondo de la torre para encontrar el anillo detrás de algunas cajas de madera, cerca del Conjunto de Mirrah.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Aumenta la velocidad de recuperación de energía en 7 puntos por segundo"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Se encuentra en Irithyll del Valle Boreal, detrás del altar que poseía el Anillo del Primogénito del Sol.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Aumenta la velocidad de recuperación de energía en 8 puntos por segundo"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Se encuentra en el Camino de los Sacrificios. Para encontrarlo hay que caer por un pequeño saliente, a la izquierda del primer Cuervo cuentacuentos.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Aumenta la velocidad de recuperación de energía en 9 puntos por segundo"
+                    }
+                },
+                {
+                    "nivel": "+3",
+                    "ubicacion": "Se encuentra en La Ciudad Anillada. El anillo lo sostiene la estatua de Gwyn, antes de la Iglesia de Filianore. En el ascensor que lleva a la hoguera Muro interior anillado hay un camino secreto que eventualmente conduce a una ubicación en la que el jugador puede dejarse caer sobre la estatua.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": " Aumenta la velocidad de recuperación de energía en 10 puntos por segundo"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_serpiente_dorada_codiciosa",
+            "nombre": "Anillo de serpiente dorada codiciosa",
+            "descripcion": "Anillo de oro que representa una serpiente que pudo ser, pero nunca fue, un dragón.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en la Capital Profanada, en un cadáver dentro de la celda de Siegward de Catarina.",
+                    "otros_detalles": {
+                        "peso": "1.2",
+                        "efecto": "Aumenta el descubrimiento de objetos en 50 puntos"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Se encuentra en Irithyll del Valle Boreal, en un cadáver que yace en un borde debajo de una barandilla rota, inmediatamente después de la habitación oscura con varios esclavos irithyllianos y antes de llegar al lago que rodea la ciudad.",
+                    "otros_detalles": {
+                        "peso": "1.2",
+                        "efecto": "Aumenta el descubrimiento de objetos en 75 puntos"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Se encuentra en el Pico del Archidragón, en el enorme patio después de derrotar al Rey Sin Nombre.",
+                    "otros_detalles": {
+                        "peso": "1.2",
+                        "efecto": "Aumenta el descubrimiento de objetos en 100 puntos"
+                    }
+                },
+                {
+                    "nivel": "+3",
+                    "ubicacion": "Se encuentra en La Ciudad Anillada, en un edificio al final de la calle. Para alcanzarlo, el jugador debe subir las escaleras cerca de los clérigos renqueantes, por la izquierda al comienzo del pantano, y cruzar al otro lado usando el puente superior. El edificio con el anillo se encuentra al final del camino a la derecha.",
+                    "otros_detalles": {
+                        "peso": "1.2",
+                        "efecto": "Aumenta el descubrimiento de objetos en 115 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_serpiente_plateada_codiciosa",
+            "nombre": "Anillo de serpiente plateada codiciosa",
+            "descripcion": "Anillo de plata que representa una serpiente que pudo ser, pero nunca fue, un dragón. Los enemigos caídos ceden más almas.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en un cofre en la parte interior del techo del Santuario de Enlace. La habitación con el cofre que contiene el anillo está escondida detrás de un muro ilusorio al que se accede caminando por las vigas ubicadas en la parte superior del santuario. En esta zona se encuentra el nido inferior del Pájaro en el nido.",
+                    "otros_detalles": {
+                        "peso": "1.2",
+                        "efecto": "Los enemigos caídos ceden un 10% más de almas"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Se encuentra en la Mazmorra de Irithyll, en un cadáver que yace sobre un andamio de madera, a medio camino del elevador-atajo cerca de la hoguera Mazmorra de Irithyll.",
+                    "otros_detalles": {
+                        "peso": "1.2",
+                        "efecto": "Los enemigos caídos ceden un 20% más de almas"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Se encuentra en el Asentamiento de no muertos, cerca del área donde reside el Demonio. El anillo está en la parte superior de un edificio, más allá de donde están las dos Evangelistas.",
+                    "otros_detalles": {
+                        "peso": "1.2",
+                        "efecto": "Los enemigos caídos ceden un 30% más de almas"
+                    }
+                },
+                {
+                    "nivel": "+3",
+                    "ubicacion": "Se encuentra en El montón de residuos, poco después de los dos primeros Caballeros de Lothric. Hay que entrar en el edificio en el que se generan varios Hombres lúgubres y donde se encuentra el Bastón largo lúgubre. La pared frente al cadáver que sostiene el bastón es una muro ilusorio. Pasar por el área que esconde hasta la zona en la que se encuentra el hechizo Grandes residuos de alma. Desde aquí se debe descender hacia un borde para encontrar el anillo.",
+                    "otros_detalles": {
+                        "peso": "1.2",
+                        "efecto": "Los enemigos caídos ceden un 35% más de almas"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_mordisco_maldito",
+            "nombre": "Anillo de mordisco maldito",
+            "descripcion": "Uno de los anillos de mordisco nativos de Carim.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver de la Capital Profanada en la zona del lago venenoso.",
+                    "otros_detalles": {
+                        "peso": "0.",
+                        "efecto": "Aumenta la resistencia a la maldición en 150 puntos."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_agarre_oscuro",
+            "nombre": "Anillo de agarre oscuro",
+            "descripcion": "Anillo que representa una mano que sujeta una piedra morada.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo suelta un Mímico en la Mazmorra de Irithyll.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta el ataque de oscuridad en un 15%, pero reduce la absorción de daño en un 10%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_placa_de_piedra_oscura",
+            "nombre": "Anillo de placa de piedra oscura",
+            "descripcion": "Las placas de piedra son el símbolo de los auténticos caballeros, y las placas de piedra moradas se conceden a los caballeros no muertos.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver que hay en unos soportales en Irithyll del Valle Boreal tras haber derrotado al jefazo de la zona.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de oscuridad 13%"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Desde la hoguera 'Barracón dragón' en el Castillo de Lothric, sube las escaleras y cruza el puente. Pasa por la puerta y sube más escaleras. Al salir afuera gira a la izquierda y tírate al bordillo de debajo por la zona destruida de la barandilla. Ve al interior del edificio tras eliminar al enemigo en la garra del dragón y sal al balcón exterior en donde está el anillo.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de oscuridad 17%"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Desde la hoguera 'Ruinas del torreón' en el Camino de los Sacrificios, cruza el puente con los 3 ghrus y tras la pared en donde está una de las llamas a apagar, encontrarás el cadáver con el anillo",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de oscuridad 20%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_la_Luna_Oscura",
+            "nombre": "Anillo de la Luna Oscura",
+            "descripcion": "Anillo de la deidad lunar Gwyndolin, hijo más joven de Gwyn, el Primer Señor.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Recompensa por llegar al rango 1 del juramento Espada de la Luna Oscura.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Añade dos ranuras de aprendizaje adicionales"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_escama_de_dragón",
+            "nombre": "Anillo de escama de dragón",
+            "descripcion": "Anillo de Oceiros, antiguo rey de Lothric. Reduce el daño recibido de los ataques por la espalda.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en el Jardín del Rey Consumido, en un cadáver ubicado a la mitad del segundo ascensor en el área. El jugador debe saltar hacia un saliente a medida que el elevador se mueve hacia arriba o hacia abajo.",
+                    "otros_detalles": {
+                        "peso": "1.1",
+                        "efecto": "Reduce el daño recibido por la espalda en un 30%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_la_corona_del_Anochecer",
+            "nombre": "Anillo de la corona del Anochecer",
+            "descripcion": "Anillo de corona del colo de las hojas, entregado a la princesa de Oolacile, antigua tierra de hechizos dorados.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver en la Mazmorra de Irithyll.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Reduce el consumo de PC (25%), pero también reduce los PS (20%)."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_estus",
+            "nombre": "Anillo de estus",
+            "descripcion": "Un anillo verde creado a partir de fragmentos.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver tras tirarte por unos bordillos en la torre del Santuario de Enlace a la que se accede utilizando la Llave de la Torre.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta PS restaurados por frasco de estus en un 20%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Farron",
+            "nombre": "Anillo de Farron",
+            "descripcion": "Anillo entregado a la Legión de los no muertos de Farron.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Regalado o soltado por Hawkwood el Desertor tras derrotar a los Vigilantes del Abismo.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Reduce el consumo de PC de habilidades en un 25%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_agarre_de_fuego",
+            "nombre": "Anillo de agarre de fuego",
+            "descripcion": "Anillo que representa una mano que sujeta una piedra roja.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver en el Asentamiento de no muertos.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta ataque de fuego en un 15% pero reduce la absorción de daño en un 10%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_placa_de_piedra_de_llama",
+            "nombre": "Anillo de placa de piedra de llama",
+            "descripcion": "Las placas de piedra son el símbolo de los auténticos caballeros, y las placas de piedra rojas se conceden a aquellos que luchan valientemente contra el caos.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Está en un cuerpo colgante de un árbol en el mismo punto en el que utilizas al individuo de la jaula en la espalda para ir a la cueva del juramento de los Apiladores.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de fuego 13%"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "En la Capital Profanada. En la zona venenosa, sube la escalerilla del edificio y ve por el tejado hasta la parte frontal del edificio, si miras al bordillo de abajo verás allí el cadáver, así que tírate a él con cuidado",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de fuego 17%"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Desde la hoguera 'Ruinas de los demonios' en el Lago Ardiente, ve a la habitación con los enemigos que lanzan bolas de fuego. Baja por las escaleras y gira a la derecha. Ve por el pasillo y golpea la pared ilusoria al fondo para ir a la sala secreta en donde está el Caballero Negro, así como el cadáver con este anillo.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de fuego 20%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_mordisco_de_carne",
+            "nombre": "Anillo de mordisco de carne",
+            "descripcion": "Uno de los anillos de mordisco nativos de Carim.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver en el Asentamiento de no muertos.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Aumenta resistencia a veneno, hemorragia, maldición y congelación 40 puntos"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Desde la hoguera 'Torre del muro' en el Gran muro de Lothric, baja hasta el suelo con los dos enemigos y sal para afuera. Desciende por la escalerilla al tejado del edificio y ve hasta la siguiente, pero antes de saltar podrás ver el cadáver con el anillo en el tejado de enfrente, así que calcula bien tu salto para llegar hasta él.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Aumenta resistencia a veneno, hemorragia, maldición y congelación 60 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Flynn",
+            "nombre": "Anillo de Flynn",
+            "descripcion": "Anillo de Flynn, un elogiado ladrón.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo encontrarás en un cadáver que está en el tejado de la casa del Asentamiento de no muertos con los cadáveres enjaulados colgando.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Reducir peso del equipo aumenta el ataque hasta un máximo del 15%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_del_Gran_Pantano",
+            "nombre": "Anillo del Gran Pantano",
+            "descripcion": "Anillo que, según dicen, tallaron a partir del hueso de una salamandra de fuego los pirománticos marchitos que habitan en el Gran Pantano.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "1° Forma parte del equipo inicial del Piromántico. 2°Uno de los cangrejos del pantano en el Camino de los Sacrificios soltará uno.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Potencia las piromancias en un 12%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Havel",
+            "nombre": "Anillo de Havel",
+            "descripcion": "Anillo para guerreros que usan accesorios pesados. Aumenta la carga máxima del equipo.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Obtenido al transponer el Alma de demonio salvaje con Ludleth de Courland.",
+                    "otros_detalles": {
+                        "peso": "1.5",
+                        "efecto": "Aumenta la carga máxima en un 15%"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Encontrado en el Pico del Archidragón, en un cadáver tendido inmediatamente a la izquierda después de salir de la habitación con los enormes Hombres Serpientes que se ocultaban, en el camino que conduce al altar que concede la Piedra de torso de dragón centelleante.",
+                    "otros_detalles": {
+                        "peso": "1.5",
+                        "efecto": "Aumenta la carga máxima en un 17%"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Encontrado en Anor Londo, en la Torre prisión donde reside Yorshka. Hay que bajar por la torre y el anillo estará en el tercer cadáver, después de la Espada guardián pinturas y el Conjunto de guardián de las pinturas.",
+                    "otros_detalles": {
+                        "peso": "1.5",
+                        "efecto": " Aumenta la carga máxima en un 18%"
+                    }
+                },
+                {
+                    "nivel": "+3",
+                    "ubicacion": "Tras derrotar a Caballero Plateado Ledo, hay que descender desde el camino de piedra que conduce a la torre rota. El anillo está en un saliente después de caer unas cuantas veces.",
+                    "otros_detalles": {
+                        "peso": "1.5",
+                        "efecto": "Aumenta la carga máxima en un 19%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_del_halcón",
+            "nombre": "Anillo del halcón",
+            "descripcion": "Anillo asociado con Gough, el Ojo de Halcón, uno de los Cuatro Caballeros de Gwyn, el Primer Señor.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo consigues al matar al gigante de las flechas que está en la cima de la torre del Asentamiento de no muertos en lugar de hacer las paces con él.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Aumenta el alcance de las flechas."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_del_abejorro",
+            "nombre": "Anillo del abejorro",
+            "descripcion": "Anillo asociado a Ciaran, la Espada del Señor, uno de los Cuatro Caballeros de Gwyn, el Primer Señor.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver por el exterior del 'Santuario Oscuro' en las Tumbas Olvidadas.",
+                    "otros_detalles": {
+                        "peso": "1.1",
+                        "efecto": "Potencia los ataques críticos en un 30%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_pezuña_de_caballo",
+            "nombre": "Anillo de pezuña de caballo",
+            "descripcion": "Un viejo anillo con un sello que representa la pezuña de un caballo.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "1° Te lo vende Parches por 500 almas. 2° Te lo vende la Sirvienta del Santuario por 500 almas después de haberle entregado las Cenizas de Parches.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Potencia el efecto de la patada en un 30%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_cazador",
+            "nombre": "Anillo de cazador",
+            "descripcion": "Anillo grabado con el retrato de un cazador.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en el Gran Archivo, en un cadáver ubicado en la torre más alta del domo principal del archivo, custodiado por tres Caballeros de Gertrude.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta la destreza en 5 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_del_Asesino_de_caballeros",
+            "nombre": "Anillo del Asesino de caballeros",
+            "descripcion": "Anillo del salvaje Tsorig, más conocido como el Asesino de caballeros.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Catacumbas de CarthusLo suelta el Espíritu Oscuro Asesino de caballeros Tsorig: Desde la hoguera Catacumbas de Carthus, baja las escaleras y entra por la primera puerta de la derecha, donde se puede encontrar un Ascua al final. Tsorig invadirá mientras el jugador se abre camino. Lago Ardiente:Si el jugador no logró derrotarlo en las catacumbas, soltará el anillo en esta ubicación. Espera escondido cerca del tramo de escaleras más bajo del nivel, que conduce a un pozo de lava.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Aumenta el daño de resistencia infligido a los oponentes que bloquean en un 10%. Esto hace que el jugador sea más efectivo al intentar romper la guardia de los enemigos y también dificulta que los oponentes tomen represalias debido a la pérdida de resistencia"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_caballero",
+            "nombre": "Anillo de caballero",
+            "descripcion": "Anillo grabado con el retrato de un caballero.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en un cadáver en el Castillo de Lothric. Desde la hoguera Armadura del Asesino de dragones, se debe volver hacia el elevador. En lugar de montarlo, hay que subir la escalera que se encuentra a la vuelta de la esquina para llegar a los tejados, ir por el camino de la derecha y entrar en otra habitación para luego descender por la escalera. El anillo se encuentra en un cadáver en la parte inferior.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta la fuerza en 5 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_del_león",
+            "nombre": "Anillo del león",
+            "descripcion": "Anillo asociado a Ornstein, el Asesino de dragones, uno de los Cuatro Caballeros de Gwyn, el Primer Señor.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Dentro de un cofre de madera en Irithyll del Valle Boreal.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Refuerza el contraataque con arma de estocada en un 15%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_vida",
+            "nombre": "Anillo de vida",
+            "descripcion": "Un anillo con varias generaciones de antigüedad que tiene una pequeña joya roja engarzada.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "1° Es uno de los regalos iniciales durante la creación del personaje. °Te lo vende la Sirvienta del Santuario por 1.500 almas después de haberle entregado las Cenizas de soñador.",
+                    "otros_detalles": {
+                        "peso": "0.3",
+                        "efecto": "Aumenta los PS máximos en un 7%."
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "En el Asentamiento de no muertos, junto a Siegward cuando está esperando a combatir al Demonio de fuego.",
+                    "otros_detalles": {
+                        "peso": "0.3",
+                        "efecto": "Aumenta los PS máximos en un 8%."
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "En el Castillo de Lothric. Desde la hoguera 'Barracón dragón', sube las escaleras y cruza el puente. Métete en la habitación oscura de la derecha y sube por la escalerilla. Gira a la izquierda, de vuelta en el exterior y ve hacia adelante, en donde verás un lagarto de cristal. Salta con cuidado al bordillo de abajo para recoger el anillo en el cadáver.",
+                    "otros_detalles": {
+                        "peso": "0.3",
+                        "efecto": "Aumenta los PS máximos en un 9%."
+                    }
+                },
+                {
+                    "nivel": "+3",
+                    "ubicacion": "En las Tumbas Olvidadas, en concreto tras el trono del 'Caballero sagrado de Lothric' en la versión oscura del Santuario.",
+                    "otros_detalles": {
+                        "peso": "0.3",
+                        "efecto": "Aumenta los PS máximos en un 10%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_agarre_eléctrico",
+            "nombre": "Anillo de agarre eléctrico",
+            "descripcion": "Anillo de agarre eléctrico",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en un cadáver en el Pico del Archidragón.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta ataque de electricidad en un 15% pero reduce la absorción de daño en un 10%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_emblema_de_dragón_eterno",
+            "nombre": "Anillo de emblema de dragón eterno",
+            "descripcion": "Un anillo especial otorgado a aquellos que son dignos de emprender el camino del descubrimiento de Vinheim, hogar de la hechicería.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo podrá soltar un cangrejo gigante en el Torreón de Farron.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Prolonga la duración del efecto de un conjuro 30%."
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "En el Camino de los Sacrificios, junto al cangrejo gigante cerca de la hoguera 'Bosques de crucifixión'.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Prolonga la duración del efecto de un conjuro 35%."
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Ve al tejado del Gran Archivo en el que hay 3 Caballeros Alados. Tras acabar con ellos, sube las escaleras, sigue el balcón y ve a la parte interior para enocntrar allí el anillo.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Prolonga la duración del efecto de un conjuro 40%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_escudo_de_Lloyd",
+            "nombre": "Anillo de escudo de Lloyd",
+            "descripcion": "Anillo entregado a los caballeros de la Blanca Vía. Representa el escudo del Linaje del gran maestre Lloyd.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Te lo vende la Sirvienta del Santuario por 2.500 almas después de haberle entregado las Cenizas de paladín.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Aumenta la absorción de daño un 25% con PS completos."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_espada_de_Lloyd",
+            "nombre": "Anillo de espada de Lloyd",
+            "descripcion": "Anillo entregado a los caballeros de la Blanca Vía. Representa la espada de la Ley del gran maestre Lloyd.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver dentro de la Catedral de la Oscuridad, por la zona en la que te ataca el gigante.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Aumenta los ataques un 10% con PS completos."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_agarre_mágico",
+            "nombre": "Anillo de agarre mágico",
+            "descripcion": "Anillo que representa una mano que sujeta una piedra azul.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver tras una pared ilusoria cerca de una especie de altar en Irithyll del Valle Boreal.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta ataque mágico en un 15% pero reduce la absorción de daño en un 10%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_placa_de_piedra_mágica",
+            "nombre": "Anillo de placa de piedra mágica",
+            "descripcion": "Las placas de piedra son el símbolo de los auténticos caballeros, y las placas de piedra azles se conceden a los guardias del palacio real.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo recibirás automáticamente al derrotar a los dos Caballeros de la Catedral en el Jardín del Rey Consumido.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño mágico 13%."
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Desde la hoguera 'Torreón de Farron' (en el Torreón de Farron), dirígete a donde están los basiliscos en el pantano y el anillo estará por esta zona.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño mágico 17%."
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Desde la hoguera 'Capital Profanada' (en la Capital Profanada), baja por la escalerilla del interior y sal por el agujero en la pared. Gira a la derecha, baja las escaleras y al final a un lado junto a una columna estará el anillo.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño mágico 20%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Morne",
+            "nombre": "Anillo de Morne",
+            "descripcion": "Un anillo deformado concedido a los caballeros de Carim.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver dentro de una pequeña cueva en el Camino de los Sacrificios.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Potencia los milagros en un 12%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_niebla",
+            "nombre": "Anillo de niebla",
+            "descripcion": "Anillo entregado a los Dedos de Rosaria, los invasores que buscan lenguas para su señora.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Recompensa por alcanzar el rango 1 en el juramento Dedos de Rosaria.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Oculta la presencia de su portador cuando está lejos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_mordisco_ponzoñoso",
+            "nombre": "Anillo de mordisco ponzoñoso",
+            "descripcion": "Uno de los anillos de mordisco nativos de Carim.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En una sala con un enemigo de los gusanos, en la Catedral de la Oscuridad por donde está el lagarto de cristal gigante.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la resistencia al veneno 90 puntos."
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Desde la hoguera 'Puente desvencijado' en Asentamiento de no muertos, ve al cementerio y junto a un pozo encontrarás el anillo.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la resistencia al veneno 140 puntos."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Ojo_izquierdo_del_Pontífice",
+            "nombre": "Ojo izquierdo del Pontífice",
+            "descripcion": "Anillo embrujado que el Pontífice Sulyvahn entregó a sus caballeros.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se obtiene al transponer el Alma de Vordt, del Valle Boreal con Ludleth de Courland.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Recupera 30 PS con ataques sucesivos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Ojo_derecho_del_Pontífice",
+            "nombre": "Ojo derecho del Pontífice",
+            "descripcion": "Anillo embrujado que el Pontífice Sulyvahn entregó a sus caballeros.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo suelta la Bestia de Sulyvahn que embosca al jugador en el puente que conduce a la hoguera Irithyll central.",
+                    "otros_detalles": {
+                        "peso": "1.4",
+                        "efecto": "Potencia los ataques hasta un máximo de 15%, siempre y cuando el ataque persista"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_oración",
+            "nombre": "Anillo de oración",
+            "descripcion": "Un anillo grabado con el retrato de la Suma Sacerdotisa.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Te lo vende la copia de la Sirvienta del Santuario en las Tumbas Olvidadas por 1.000 almas.",
+                    "otros_detalles": {
+                        "peso": "0.4",
+                        "efecto": "Aumenta la fe en 5 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_lágrima_de_piedra_roja",
+            "nombre": "Anillo de lágrima de piedra roja",
+            "descripcion": "Un anillo con una rara piedra de lágrima engarzada.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "La encontrarás en un cadáver en el Castillo de Lothric.",
+                    "otros_detalles": {
+                        "peso": "1.4",
+                        "efecto": "Aumenta el ataque un 20% con PS bajos (por debajo del 20%)."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Cadena_de_prisionero",
+            "nombre": "Cadena de prisionero",
+            "descripcion": "Parte de una cadena de acero usada para sujetar a Gundyr.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se obtiene al transponer el Alma del campeón Gundyr con Ludleth de Courland.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta Vigor, Resistencia y Vitalidad en 5 puntos, pero se recibe más daño (un 10% más)"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_inversión",
+            "nombre": "Anillo de inversión",
+            "descripcion": "Anillo divino otorgado a Gwyndolin, la Luna Oscura, en su juventud.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en Irithyll del Valle Boreal en un cofre en el Templo de la Luna Oscura. El área está oculta detrás de una estatua ilusoria del Señor Gwyn. Si el jugador ha estado siguiendo la historia de Anri de Astora, el acceso a la tumba ya estará abierto.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Cambia la animación del jugador a la del sexo opuesto. Este efecto es meramente cosmético y no tiene impacto en el juego"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "AnilloDeFavor",
+            "nombre": "Anillo de Favor",
+            "descripcion": "Aumenta la vida, la resistencia y la carga máxima de equipo.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Dejado por las dos Bestias de Sulyvahn en Irithyll del Valle Boreal.",
+                    "otros_detalles": {
+                        "peso": "1.5",
+                        "efecto": "Aumenta la vida en un 3%, la resistencia en un 8.5% y la carga máxima de equipo en un 5%"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "En Irithyll del Valle Boreal, en el puente de nieve.",
+                    "otros_detalles": {
+                        "peso": "1.5",
+                        "efecto": "Aumenta la vida en un 4%, la resistencia en un 9.5% y la carga máxima de equipo en un 6%"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "En el Gran Archivo, después de derrotar a los príncipes gemelos.",
+                    "otros_detalles": {
+                        "peso": "1.5",
+                        "efecto": "Aumenta la vida en un 5%, la resistencia en un 10.5% y la carga máxima de equipo en un 7%"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_del_sacrificio",
+            "nombre": "Anillo del sacrificio",
+            "descripcion": "Este anillo místico se creó en un sacrificio consagrado a Velka, diosa del Pecado.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Santuario de Enlace: Se puede obtener uno al intercambiar el Hueso de Loretta con el pájaro en el nido (una vez por partida).Yuria de Londor vende 3 por 5.000 almas cada uno.La Sirvienta del Santuario venderá 3 al mismo precio después de entregarle las Cenizas de Yuria. Gran muro de Lothric: Se puede encontrar uno en un tejado más allá de la hoguera Torre del muro, cerca del Caballero Alado. Irithyll del Valle Boreal: Hay uno en el lago que rodea la ciudad, entre la Iglesia de Yorshka y la Mansión lejana. Jardín del Rey Consumido: En un cadáver en el área del pantano venenoso.",
+                    "otros_detalles": {
+                        "peso": "1.0",
+                        "efecto": "El jugador no perderá sus almas al morir, pero el anillo se romperá y será removido del inventario"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_protección_de_acero",
+            "nombre": "Anillo de protección de acero",
+            "descripcion": "Anillo del legendario Rey Caballero.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver en Pico del Archidragón por la zona en la que combates con el Wyvern antiguo.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta la absorción de daño físico 10%."
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "En las Tumbas olvidadas, tras la torre que se desbloquea con la Llave de la Torre.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta la absorción de daño físico 13%."
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Desde la hoguera 'Vigilantes del Abismo' en las Catacumbas de Carthus, baja por las escaleras y cruza el puente. Por el lado izquierdo de dicho puente verás un objeto abajo, así que tírate a por él.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta la absorción de daño físico 15%."
+                    }
+                },
+                {
+                    "nivel": "+3",
+                    "ubicacion": "En un cadáver en en El montón de residuos (DLC The Ringed City)., por donde está el Ángel.",
+                    "otros_detalles": {
+                        "peso": "0.8",
+                        "efecto": "Aumenta la absorción de daño físico 18%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_Mal_de_Ojo",
+            "nombre": "Anillo de Mal de Ojo",
+            "descripcion": "Este anillo capturó el espíritu infame de un mal de ojo, una criatura que devastó Astora.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Te lo da Anri al avanzar lo suficiente en su historia.",
+                    "otros_detalles": {
+                        "peso": "1.0",
+                        "efecto": "Absorbe los PS de los enemigos derrotados 30 puntos"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Tras la estatua en la Catedral de la Oscuridad, justo antes del enfrentamiento contra el jefazo Diáconos de la Oscuridad.",
+                    "otros_detalles": {
+                        "peso": "1.0",
+                        "efecto": "Absorbe los PS de los enemigos derrotados 33 puntos"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Regresa a donde recogiste el Anillo de mordisco de carne en el Gran muro de Lothric yen lugar de saltar por el agujero, baja por la escalerilla y entra en el edificio con el Caballero de Lothric. Tras él baja a la habitación en la que consigues la Llave de celda, estará este anillo.",
+                    "otros_detalles": {
+                        "peso": "1.0",
+                        "efecto": "Absorbe los PS de los enemigos derrotados 35 puntos"
+                    }
+                },
+                {
+                    "nivel": "+3",
+                    "ubicacion": "Lo suelta un Mímico en La Ciudad Anillada (DLC The Ringed City).",
+                    "otros_detalles": {
+                        "peso": "1.0",
+                        "efecto": "Absorbe los PS de los enemigos derrotados 38 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_del_Primogénito_del_Sol",
+            "nombre": "Anillo del Primogénito del Sol",
+            "descripcion": "Anillo del Primogénito del Sol, que heredó la luz de Gwyn, el Primer Señor.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver en Irithyll del Valle Boreal en una parte elevada a la que se accede tirándote desde el bordillo frente a la puerta del jefazo Pontífice Sulyvahn.",
+                    "otros_detalles": {
+                        "peso": "1.0",
+                        "efecto": "Potencia enormemente los milagros (en un 20%, pero solo el daño, no afecta por ejemplo a los milagros curativos)"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_sabio",
+            "nombre": "Anillo de sabio",
+            "descripcion": "Un anillo entregado a la Legión de los no muertos de Farron por uno de los gemelos predicadores, más conocidos como los Sabios de cristal.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver en una sala inundada por la zona de las ruinas del Camino de los Sacrificios.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Reduce el tiempo de lanzamiento de un conjuro 30."
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Tras acabar con los 3 Caballeros Alados en el tejado del Gran Archivo, ve al interior en la base de la torre y déjate caer a las vigas en donde encontrarás el anillo.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Reduce el tiempo de lanzamiento de un conjuro 35."
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "En el elevador que te lleva al Jardín del Rey Consumido, salte de él antes de tiempo y una vez fuera, gira a la izquierda y salta a unas escaleras rotas, desde allí verás otras escaleras más en donde está el anillo y a las que tendrás que saltar.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Reduce el tiempo de lanzamiento de un conjuro 40."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_santo",
+            "nombre": "Anillo de santo",
+            "descripcion": "Un anillo entregado a un santo de Carim.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "1° Te lo vende Irina por 300 almas. 2°Te lo vende la Sirvienta del Santuario por 300 almas después de haberle entregado las Cenizas de Irina.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Permite aprender conjuros adicionales"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_erudito",
+            "nombre": "Anillo de erudito",
+            "descripcion": "Anillo grabado con el retrato de un erudito.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en el Gran Archivo. Hay que tirar de la palanca que se encuentra a la derecha del puente de madera en el tercer piso de la biblioteca. Un par de estantes se moverán fuera del camino, dando acceso a un cadáver sentado en una silla sosteniendo el anillo.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la inteligencia en 5 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_calavera",
+            "nombre": "Anillo de calavera",
+            "descripcion": "Una de las maravillas transpuestas de Courland. Deriva del alma de un Devorador de almas.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo suelta Ludleth de Courland al morir. Si el jugador colocó las Cenizas de un Señor en sus respectivos tronos, Ludleth morirá y el anillo podrá ser saqueado de su trono.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Al tenerlo equipado la línea de visión de los enemigos y rango de hostilidad aumentan"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_gato_de_plata",
+            "nombre": "Anillo de gato de plata",
+            "descripcion": "Anillo de plata que representa a un felino saltando. Impide sufrir daño al caer.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Es un regalo de Sirris que te da en el Santuario de Enlace después de ayudarle a derrotar a Creighton en Irithyll del Valle Boreal. Para realizar esta tarea, deberás buscar la señal de invocación de Sirris cerca de la primera mitad del puente que conecta la hoguera de Irithyll del Valle Boreal con Irithyll central y responder a su llamada. Si tienes éxito, la próxima vez que visites el Santuario de Enlace, ella te saludará y agradecerá por tu ayuda, otorgándote el anillo como recompensa.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Anula todo el daño por caída. No anula el daño por caídas letales, como estar demasiado alto o fuera de los límites"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_emblema_de_dragón_dormido",
+            "nombre": "Anillo de emblema de dragón dormido",
+            "descripcion": "Anillo de un gremio clandestino de hechiceros asentado en Vinheim, hogar de la hechicería.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Te lo da Orbeck después de haberle comprado los hechizos Asustar, Espada brillante de Farron, Mercurio pestilente y Señuelo auditivo.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Camufla los sonidos del portador."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_placa_de_piedra_moteada",
+            "nombre": "Anillo de placa de piedra moteada",
+            "descripcion": "Las placas de piedra son el símbolo de los auténticos caballeros, y las placas de piedra moteadas se conceden a aquellos que se enfrentan a un viaje interminable.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Se encuentra en el Lago Ardiente, detrás de un muro. El muro está ubicado en el extremo izquierdo de la caverna inicial (si se mira hacia la balista y opuesto a la sala del jefe Viejo rey demonio) y solo puede destruirse haciendo que impacte uno de los proyectiles de la balista.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Aumenta la absorción de daño mágico, de fuego y de oscuridad en 5 puntos"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Se encuentra en el Cementerio de Ceniza, en un cadáver cerca del Lagarto de cristal voraz.",
+                    "otros_detalles": {
+                        "peso": "0.9",
+                        "efecto": "Aumenta la absorción de daño mágico, de fuego y de oscuridad en 7 puntos"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_la_Princesa_de_la_Luz_Solar",
+            "nombre": "Anillo de la Princesa de la Luz Solar",
+            "descripcion": "Anillo asociado a Gwynevere, Princesa de la Luz Solar e hija mayor de Gwyn, el Primer Sol.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Tras haber derrotado al jefazo Aldrich, el Devoradioses en Anor Londo, sube por uno de los elevadores del fondo y entra en la habitación para encontrar el anillo en un cadáver.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Restablece los PS de forma gradual (2 por segundo)."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_placa_de_piedra_de_trueno",
+            "nombre": "Anillo de placa de piedra de trueno",
+            "descripcion": "Las placas de piedra son el símbolo de los auténticos caballeros, y las placas de piedra amarillas se conceden a aquellos que se convertirán en dragones.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver en Pico del Archidragón.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de electricidad 13%."
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Cerca del Anillo de Carthus en las Catacumbas de Carthus.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de electricidad 17%."
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Desde la sala del jefazo en el Castillo de Lothric, ve hasta donde está el Anillo de lágrima de piedra roja, tírate por la zona destrozada de la barandilla al tejado de abajo en donde encontrarás el anillo.",
+                    "otros_detalles": {
+                        "peso": "0.6",
+                        "efecto": "Aumenta la absorción de daño de electricidad 20%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_oscuro_falso",
+            "nombre": "Anillo oscuro falso",
+            "descripcion": "Uno de los anillos ilusorios empleados por los Huecos de Londor.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo vende Yuria de Londor por 5.000 almas.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Hace que el portador siempre tenga aspecto humano y quita el resplandor de fantasma cuando es invocado o cuando invade"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_blanco_falso",
+            "nombre": "Anillo blanco falso",
+            "descripcion": "Uno de los anillos ilusorios empleados por los Huecos de Londor.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Lo vende Yuria de Londor por 5.000 almas.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Concede al jugador el aspecto de un fantasma blanco"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_bruja",
+            "nombre": "Anillo de bruja",
+            "descripcion": "La bruja de Izalith y sus hijas, abrasadas por la Llama del Caos, enseñaron a los humanos el arte de la piromancia y les ofrecieron este anillo.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "En un cadáver en las Catacumbas de Carthus, de camino al Lago Ardiente, cerca de la hoguera 'Tumba abandonada'.",
+                    "otros_detalles": {
+                        "peso": "1.0",
+                        "efecto": "Potencia enormemente las piromancias en un 20%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_lobo",
+            "nombre": "Anillo de lobo",
+            "descripcion": "Anillo otorgado a Artorias, el Caminante del Abismo, uno de los Cuatro Caballeros de Gwyn, el Primer Señor.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Recompensa por alcanzar el rango 2 en el juramento Sabuesos de Farron.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Aumenta el equilibrio en 4"
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Se encuentra en el Torreón de Farron, oculto tras un muro alrededor de la hoguera Ruinas del torreón.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Aumenta el equilibrio en 6"
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Se encuentra en el Cementerio de Ceniza, en un cadáver a la izquierda después de abrir la puerta tras derrotar a Iudex Gundyr.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": " Aumenta el equilibrio en 8"
+                    }
+                },
+                {
+                    "nivel": "+3",
+                    "ubicacion": "Lo suelta el Buscador de lo rechazados en La Ciudad Anillada.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Aumenta el equilibrio en 9"
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_veta_de_madera",
+            "nombre": "Anillo de veta de madera",
+            "descripcion": "Este anillo especial creado en una tierra del este está hecho de metal, pero tiene un escudo de madera en la superficie. Ralentiza la degradación del equipo.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "Te lo vende la Sirvienta del Santuario por 3.000 almas después de haberle entregado las Cenizas habitante del este.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Ralentiza la degradación del equipo 20%."
+                    }
+                },
+                {
+                    "nivel": "+1",
+                    "ubicacion": "Por donde el primer elevador en la entrada del Jardín del Rey Consumido.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Ralentiza la degradación del equipo 30%."
+                    }
+                },
+                {
+                    "nivel": "+2",
+                    "ubicacion": "Desde la hoguera 'Mansión lejana' en Irithyll del Valle Boreal, sube las escaleras, cruza la cocina y tras pasar la habitación de los 3 caballeros plateados, sal afuera y date la vuelta para encontrar el anillo junto al edificio.",
+                    "otros_detalles": {
+                        "peso": "0.5",
+                        "efecto": "Ralentiza la degradación del equipo 40%."
+                    }
+                }
+            ]
+        },
+        {
+            "imagen": "Anillo_de_dragón_joven",
+            "nombre": "Anillo de dragón joven",
+            "descripcion": "Anillo concedido en Vinheim, hogar de la hechicería, al ser nombrado hechicero.",
+            "versiones": [
+                {
+                    "nivel": "",
+                    "ubicacion": "1° Forma parte del equipo inicial del Hechicero. 2° También te lo da Orbeck si la clase inicial de tu personaje no es un mago y solo después de haberle entregado un pergamino cualquiera y de comprarle también 3 hechizos cualesquiera.",
+                    "otros_detalles": {
+                        "peso": "0.7",
+                        "efecto": "Potencia los hechizos en un 15%."
+                    }
+                }
+            ]
+        }
+    ]
+}
