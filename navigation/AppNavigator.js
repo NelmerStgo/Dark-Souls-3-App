@@ -27,7 +27,8 @@ const AppNavigator = () => {
                         cardStyle: {
                             backgroundColor: '#1E1E1E',
                         },
-                    }}      >
+                    }}      
+                    >
                     <Stack.Screen
                         name="Home"
                         component={HomeScreen}

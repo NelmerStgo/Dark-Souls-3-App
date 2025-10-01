@@ -11,7 +11,7 @@ import {
     Platform
 } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { SafeAreaView } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const GOLD = '#C9A46C';
 const GOLD_SOFT = '#E3C890';
@@ -32,7 +32,7 @@ const linksData = [
     {
         icon: 'logo-github',
         label: 'Repositorio / Perfil GitHub',
-        url: '', // Rellena aquí tu GitHub
+        url: 'https://github.com/NelmerStgo/Dark-Souls-3-App.git',
         kind: 'code'
     }
 ];
