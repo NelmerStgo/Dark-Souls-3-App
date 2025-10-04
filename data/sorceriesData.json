@@ -3,7 +3,7 @@
     {
       "imagen": "afinidad",
       "nombre": "Afinidad",
-      "descripcion": "Un hechizo oscuro prohibido. Proyecta una oscura manifestación de humanidad. Parece ser una expresión de envidia, o quizá de amor hacia otro, que perseguirá con tenacidad a su objetivo. Incluso si, al igual que tantos deseos humanos, solo lo lleva a la desgracia.",
+      "descripcion": "Un hechizo oscuro prohibido. \nProyecta una oscura manifestación de humanidad. \n \nParece ser una expresión de envidia, o quizá de amor hacia otro, que perseguirá con tenacidad a su objetivo. Incluso si, al igual que tantos deseos humanos, solo lo lleva a la desgracia.",
       "versiones": [
         {
           "ubicacion": "Lo vende Karla por 15,000 almas.",
@@ -16,7 +16,7 @@
     {
       "imagen": "aliento_de_dragon_blanco",
       "nombre": "Aliento de dragon blanco",
-      "descripcion": "Hechizo del crédulo Oceiros, el Rey Consumido. Emite aliento cristal de Seath el Descamado. El aliento de cristal tiene propiedades perforadoras. Parece que la investigación de Seath impactó al viejo Sombrero Grande, que en su loco y desnudo estado se apropió de obras divinas como esta. Sin duda Oceiros se sintió identificado con esto.",
+      "descripcion": "Hechizo del crédulo Oceiros, el Rey Consumido. \n \nEmite aliento cristal de Seath el Descamado. \nEl aliento de cristal tiene propiedades perforadoras. \n\nParece que la investigación de Seath impactó al viejo Sombrero Grande, que en su loco y desnudo estado se apropió de obras divinas como esta. Sin duda Oceiros se sintió identificado con esto.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al transponer el Alma de Oceiros, Rey Consumido con Ludleth de Courland.",
@@ -30,7 +30,7 @@
     {
       "imagen": "alma_profunda",
       "nombre": "Alma profunda",
-      "descripcion": "Hechizo del archidiácono Royce y sus diáconos. Cuentan que les fue impartido por McDonnell, del Valle Boreal. Dispara residuos de alma oscura. Almas que surgen de las profundidades persiguen a su objetivo, atraídas por la vida.",
+      "descripcion": "Hechizo del archidiácono Royce y sus diáconos. Cuentan que les fue impartido por McDonnell, del Valle Boreal. \n\nDispara residuos de alma oscura. \n\nAlmas que surgen de las profundidades persiguen a su objetivo, atraídas por la vida.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al transponer el Alma de Diáconos de la Oscuridad con Ludleth de Courland.",
@@ -43,7 +43,7 @@
     {
       "imagen": "arma_congelada",
       "nombre": "Arma congelada",
-      "descripcion": "Uno de los hechizos que dejó el joven hechicero Sulyvahn antes de abandonar el Mundo Pintado. Añade congelación al arma de la mano derecha. Sulyvahn nació y se crio dentro del cuadro, pero no le gustaba su gélido hogar, puesto que aún no había experimentado la pérdida.",
+      "descripcion": "Uno de los hechizos que dejó el joven hechicero Sulyvahn antes de abandonar el Mundo Pintado. \nAñade congelación al arma de la mano derecha. \n\nSulyvahn nació y se crio dentro del cuadro, pero no le gustaba su gélido hogar, puesto que aún no había experimentado la pérdida.",
       "versiones": [
         {
           "ubicacion": "Se encuentra entre las Moscas gigantes en un área infestada de huevos, cerca de la Cueva del puente suspendido, pasado el Campo de nieve.",
@@ -57,10 +57,10 @@
     {
       "imagen": "arma_magica",
       "nombre": "Arma magica",
-      "descripcion": "Hechizo para hechiceros que blanden espadas. Refuerza el arma derecha con magia. El poder de los espadachines hechiceros de Vinheim está contenido en este hechizo y el escudo mágico. Muchos guerreros aprenden magia solo por este hechizo.",
+      "descripcion": "Hechizo para hechiceros que blanden espadas. \nRefuerza el arma derecha con magia. \n\nEl poder de los espadachines hechiceros de Vinheim está contenido en este hechizo y el escudo mágico. Muchos guerreros aprenden magia solo por este hechizo.",
       "versiones": [
         {
-          "ubicacion": "Lo vende Yoel de Londor (o Yuria de Londor tras la muerte de este) por 4,500 almas. | Lo vende Orbeck de Vinheim por 3,000 almas.",
+          "ubicacion": "\n• Lo vende Yoel de Londor (o Yuria de Londor tras la muerte de este) por 4,500 almas. \n• Lo vende Orbeck de Vinheim por 3,000 almas.",
           "otros_detalles": {
             "requerimientos": "Inteligencia 10"
           }
@@ -70,7 +70,7 @@
     {
       "imagen": "arma_magica_de_cristal",
       "nombre": "Arma magica de cristal",
-      "descripcion": "Mejora más el arma mágica mediante la cristalización. Refuerza el arma derecha con cristal. Tras mucho experimentar, Logan descubrió que el medio de cristal facilitaba un vínculo más fuerte entre arma y alma.",
+      "descripcion": "Mejora más el arma mágica mediante la cristalización. \nRefuerza el arma derecha con cristal. \n\nTras mucho experimentar, Logan descubrió que el medio de cristal facilitaba un vínculo más fuerte entre arma y alma.",
       "versiones": [
         {
           "ubicacion": "Lo vende Orbeck de Vinheim por 10,000 almas tras entregarle el Pergamino de cristal.",
@@ -83,7 +83,7 @@
     {
       "imagen": "arma_oculta",
       "nombre": "Arma oculta",
-      "descripcion": "Hechizo perdido de Oolacile, una tierra de antiguos hechizos dorados. Vuelve invisible el arma derecha. El arma en sí no experimenta cambios inherentes. Como en cualquier otra herramienta, su utilidad depende del ingenio del lanzador.",
+      "descripcion": "Hechizo perdido de Oolacile, una tierra de antiguos hechizos dorados. \nVuelve invisible el arma derecha. \n\nEl arma en sí no experimenta cambios inherentes. \nComo en cualquier otra herramienta, su utilidad depende del ingenio del lanzador.",
       "versiones": [
         {
           "ubicacion": "Lo vende Orbeck de Vinheim por 1,500 almas tras entregarle el Pergamino dorado.",
@@ -96,7 +96,7 @@
     {
       "imagen": "asustar",
       "nombre": "Asustar",
-      "descripcion": "Hechizo creado por cierto hechicero subrepticio de la Escuela de Dragones de Vinheim. Enmascara el ruido y reduce el daño de caída. El simple hecho de dominar este hechizo permite que los espías de Vinheim exijan un precio elevado por sus servicios.",
+      "descripcion": "Hechizo creado por cierto hechicero subrepticio de la Escuela de Dragones de Vinheim. \n\nEnmascara el ruido y reduce el daño de caída. \n\nEl simple hecho de dominar este hechizo permite que los espías de Vinheim exijan un precio elevado por sus servicios.",
       "versiones": [
         {
           "ubicacion": "Parte del equipo inicial de la Clase Asesino. | Lo vende Orbeck de Vinheim por 2,000 almas.",
