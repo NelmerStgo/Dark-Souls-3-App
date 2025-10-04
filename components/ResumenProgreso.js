@@ -8,7 +8,11 @@ const ResumenProgreso = ({ titulo, progreso }) => {
         <View style={styles.contenedor}>
             <Text style={styles.titulo}>{titulo}</Text>
             <Text style={styles.progreso}>
-                Progreso: {progreso.completed} de {progreso.total} conseguidos
+                Progreso:{' '}
+                <Text style={styles.text}>{progreso.completed}</Text>{' '}
+                de{' '}
+                <Text style={styles.text}>{progreso.total}</Text>{' '}
+                conseguidos
             </Text>
         </View>
     );
@@ -31,6 +35,9 @@ const styles = StyleSheet.create({
         color: colores.textoSecundario,
         textAlign: 'center',
         marginBottom: 8
+    },
+    text: {
+        color: "#65a30d",
     }
 });
 

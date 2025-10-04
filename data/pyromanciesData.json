@@ -1,0 +1,396 @@
+{
+  "pyromancies": [
+    {
+      "imagen": "abanico_de_llamas",
+      "nombre": "Abanico de llamas",
+      "descripcion": "Piromancia de Zoey, descendiente de los pirománticos del desierto. Se usa repetidas veces para sacudir el abanico de llamas de izquierda a derecha. Zoey poseía una gran hermosura, como todas las pirománticas del desierto, pero la suya no se envenenó, y eso la llevó a convertirse en la modesta reina de las enfermas.",
+      "versiones": [
+        {
+          "ubicacion": "Lo suelta la piromántica del desierto Zoey.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15, Fe 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "arco_de_llama_de_carthus",
+      "nombre": "Arco de llama de Carthus",
+      "descripcion": "Piromancia de Carthus de las Arenas. Refuerza el arma derecha con fuego. Los guerreros de Carthus preferían este tipo de piromancia complementaria, que usaban para mejorar las espadas curvas de sus espadachines.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 10,000 almas después de entregarle el Tomo de piromancia de Carthus.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 10, Fe 10"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "bola_de_fuego",
+      "nombre": "Bola de fuego",
+      "descripcion": "Piromancia elemental que suele ser la primera que se aprende. Lanza una bola de fuego. Para usar piromancias, equípate con una llama de piromancia y aprende la piromancia en una hoguera.",
+      "versiones": [
+        {
+          "ubicacion": "Equipamiento inicial de la clase Piromántico. | La vende Cornyx del Gran Pantano por 1,000 almas. | La vende la Sirvienta del Santuario por 1,000 almas después de entregarle las Cenizas de Cornyx.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 6, Fe 6",
+            "efecto": "Lanza una bola de fuego al objetivo, causando daño de fuego."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "bola_de_fuego_explosiva",
+      "nombre": "Bola de fuego explosiva",
+      "descripcion": "Antigua piromancia restaurada por Cornyx. Uno de los conjuros más avanzados del Gran Pantano. Lanza una bola de fuego explosiva. Una técnica rara que sufre cambios tras dejar la mano del lanzador, lo que hace que este conjuro sea famoso por su dificultad.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 5,000 almas después de entregarle el Tomo de piromancia del Gran Pantano.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 18, Fe 12"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "calor",
+      "nombre": "Calor",
+      "descripcion": "Piromancia peculiar de los Apiladores. Crea una suave llama que restablece PS al contacto. Temían separarse de los dioses y buscaban un vínculo familiar, que quizá llevó a la creación de esta llama de armonía.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al alcanzar el rango +2 en el juramento de los Apiladores.",
+          "otros_detalles": {
+            "requerimientos": "Fe 25"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "caos_flotante",
+      "nombre": "Caos flotante",
+      "descripcion": "El piromántico Dunnel se sentía fascinado por este arte ceremonial empleado por los clérigos del Lago Ardiente. Invoca un orbe del caos que escupe fuego. El caos arde en un abrir y cerrar de ojos, pero fue la vida primordial que surgió en el Lecho del Caos y un símbolo lamentable de los pecados de Izalith.",
+      "versiones": [
+        {
+          "ubicacion": "Lo suelta el piromántico lívido Dunnel en el Mundo Pintado de Ariandel, quien invade al jugador en la torre de Priscilla.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 16, Fe 16"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "caos_hirviente",
+      "nombre": "Caos hirviente",
+      "descripcion": "La última llama encendida por el príncipe demonio. Esta piromancia lanza una masa de caos. Al impactar, esta masa de caos hierve incontroladamente, se condensa brevemente y después explota con violencia. Para los demonios, estas masas son jirones de vida.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al transponer el Alma del príncipe demonio con Ludleth de Courland.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 18, Fe 18"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "carne_ferrea",
+      "nombre": "Carne ferrea",
+      "descripcion": "Piromancia que interioriza la llama. Carne férrea potencia la absorción de daño y la resistencia, pero aumenta el peso de forma considerable. No es aconsejable para caminar por ciénagas, quizá por eso no se emplea en el Gran Pantano.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra en el Torreón de Farron. Desde la hoguera Torreón de Farron hay que entrar en el pantano y dirigirse hacia la derecha. Se encuentra entre varios árboles en medio del pantano, dentro del agua profunda que conduce a los Basiliscos.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 8"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "caida_de_rocas",
+      "nombre": "Caida de rocas",
+      "descripcion": "Arte de un demonio salvaje de llama sofocada. Escupe una roca por la boca. La roca es pesada, pero se rompe fácilmente.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al transponer el Alma de demonio salvaje con Ludleth de Courland.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 8, Fe 12"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "compenetracion",
+      "nombre": "Compenetracion",
+      "descripcion": "Piromancia avanzada de Quelana, hija de la bruja de Izalith. Hechiza al enemigo y lo transforma en un aliado temporal. Los vivos se sienten atraídos por la llama, y esta tendencia es elemental para el arte de la piromancia.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Karla por 7.000 almas después de entregarle el Tomo de piromancia de Quelana.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "faro_de_carthus",
+      "nombre": "Faro de Carthus",
+      "descripcion": "La piromancia más oscura desarrollada por Carthus de las Arenas. El daño aumenta con los ataques consecutivos. La agresión de Carthus se ha comparado con un fuego incontrolable, y desde tiempos antiguos, su faro se ha usado como señal de guerra.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 8,000 almas después de entregarle el Tomo de piromancia de Carthus.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 12, Fe 12"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gran_combustion",
+      "nombre": "Gran combustion",
+      "descripcion": "Una piromancia superior a Combustión. Crea una poderosa llama gigante en la mano. Un conjuro muy poderoso, pero sencillo de utilizar. La piromancia significa sentir al mismo tiempo miedo y anhelo, y el poder resultante de la misma depende de la inteligencia y la fe de quien la usa",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 3,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 10, Fe 10"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gran_orbe_de_fuego_del_caos",
+      "nombre": "Gran orbe de fuego del caos",
+      "descripcion": "Arte de la Llama del Caos, de la antigua Izalith. Lanza un gran orbe de fuego del caos. La llama caótica funde incluso grandes rocas y crea una breve oleada de lava fundida al impactar. La bruja de Izalith y sus hijas crearon la Llama del Caos, pero esta las devoró, junto con su hogar.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 10,000 almas después de entregarle el Tomo de piromancia de Izalith.",
+          "otros_detalles": {
+            "requerimientos": ""
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "llama_negra",
+      "nombre": "Llama negra",
+      "descripcion": "Piromancia descubierta por los guardianes de la cripta después de que el Gran Señor Wolnir cayera al Abismo. Crea una llama negra gigante en la mano. Las llamas negras nacidas del Abismo no tienen sombra. Se dice que son los fuegos impenetrables de la humanidad.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Karla por 10,000 almas después de entregarle el Tomo de piromancia del guardián de la cripta.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15, , Fe 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "llama_profanada",
+      "nombre": "Llama profanada",
+      "descripcion": "Piromancia que deriva de la Llama Profanada. Engulle a los enemigos a distancia y los reduce a cenizas. La Capital Profanada fue consumida por el fuego después de que Yhorm, el Gigante, se convirtiera en Señor de la Ceniza. Cuentan que el fuego, que se originó en el cielo, no quemó nada salvo carne humana.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra en la Mazmorra de Irithyll, al lado del esclavo gigante y las ratas sabueso.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 25,"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "llama_sagrada",
+      "nombre": "Llama sagrada",
+      "descripcion": "Piromancia enseñada entre los salvajes. La llama entra en el enemigo y se prende. Originalmente se usaba en una ceremonia para limpiar impurezas de los sacrificios; de ahí el nombre del conjuro. Por bárbaro que suene, lo cierto es que parece bastante apropiada para los pirománticos salvajes, que se consideran a sí mismos siervos de lo divino.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra dentro de un pozo de lava en el Lago Ardiente. Hay que proceder por el nivel hasta alcanzar el piso más bajo, donde se encuentra Asesino de caballeros Tsorig. La piromancia yace en el muro izquierdo a través de la lava.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 8, Fe 8"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "latigo_de_fuego",
+      "nombre": "Latigo de fuego",
+      "descripcion": "Piromancia primigenia enseñada por Quelana, hija de la bruja de Izalith. Barre a los enemigos con un látigo de fuego. El lanzador manipula las llamas a voluntad, haciendo que sea un conjuro especialmente difícil de utilizar. La piromancia requiere saber al mismo tiempo cómo controlar la llama y que el control es imposible.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Karla por 10,000 almas después de entregarle el Tomo de piromancia de Quelana.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 13, Fe 8"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "neblina_toxica",
+      "nombre": "Neblina toxica",
+      "descripcion": "Piromancia única de Eingyi que nunca se extendió por el Gran Pantano. Crea una intensa neblina tóxica. Cuentan que, tras ser expulsado del Gran Pantano, al final de su viaje, Eingyi se topó con un virulento veneno y una joven doncella.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra en el Lago Ardiente, en un cadáver en un área cubierta de lava, accedida a través de un muro ilusorio en una sala con tres Ratas sabueso.",
+          "otros_detalles": {
+            "requerimientos": "Fe 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "neblina_venenosa",
+      "nombre": "Neblina venenosa",
+      "descripcion": "Piromancia única creada por Eingyi, un hereje que vivió en el Gran Pantano hace mucho tiempo. Crea una neblina tóxica. Eingyi fue expulsado del Gran Pantano, pero su piromancia todavía le sobrevive. Puede que alguien recordara a los moradores del Gran Pantano que su propia existencia se arraigaba en la herejía.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 2,000 almas después de entregarle el Tomo de piromancia del Gran Pantano.",
+          "otros_detalles": {
+            "requerimientos": "Fe 10"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "oleada_acida",
+      "nombre": "Oleada acida",
+      "descripcion": "Piromancia de Carthus de las Arenas. Emite ácido que corroe armas y armaduras. Los espadachines de Carthus valoraban mucho la victoria y no evitaban usar tales piromancias. Al fin y al cabo, ¿qué tipo de honor hay en la muerte y los huesos descarnados?",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 6,000 almas después de entregarle el Tomo de piromancia de Carthus.",
+          "otros_detalles": {
+            "requerimientos": "Fe 13"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "orbe_de_fuego",
+      "nombre": "Orbe de fuego",
+      "descripcion": "El conjuro que manipula las llamas característico de los pirománticos. Lanza un orbe de fuego gigante. El orbe de fuego llameante explota al impactar, e inflige daño de fuego en el área circundante. Dicen que una vez que un piromántico aprende este conjuro, aumenta su entendimiento de la llama, así como su anhelo por ella.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 5,000 almas después de entregarle el Tomo de piromancia del Gran Pantano.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 8, Fe 8"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "orbe_de_fuego_negro",
+      "nombre": "Orbe de fuego negro",
+      "descripcion": "Piromancia descubierta por los guardianes de la cripta del Gran Señor Wolnir después de que este cayera al Abismo. Lanza una bola de fuego negra. La llama negra inflige daño de oscuridad y golpea a los objetivos con gran fuerza.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Karla por 10,000 almas después de entregarle el Tomo de piromancia del guardián de la cripta.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 20, Fe 20"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "poder_interior",
+      "nombre": "Poder interior",
+      "descripcion": "Piromancia prohibida entre aquellos que interiorizan la llama. Aumenta temporalmente el ataque, pero pierde PS de forma gradual. Un piromántico teme a la llama, pero su miedo remite cuando la acepta como sustituta de la fuerza.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra en el Gran Archivo. Dentro de la habitación oscura ubicada después del área de la tina de cera, hay que buscar una palanca y tirar de ella. Una estantería se moverá a la izquierda, revelando una habitación secreta con un cadáver que sostiene el hechizo.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 10, Fe 10"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "serpiente_negra",
+      "nombre": "Serpiente negra",
+      "descripcion": "Piromancia descubierta en el Abismo por el Gran Señor Wolnir, que inspiró las artes oscuras de los guardianes de la cripta. Libera llamas negras ondulantes que recorren el suelo. Ya sean hechicería o piromancia, las técnicas que transgreden la humanidad llevan al mismo lugar. Es decir, todas buscan una voluntad propia.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al transponer el Alma del Gran Señor Wolnir con Ludleth de Courland.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15, Fe 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "sudor_abundante",
+      "nombre": "Sudor abundante",
+      "descripcion": "Piromancia avanzada que interioriza la llama, asociada a Carmina. El sudor abundante aumenta temporalmente la resistencia a hemorragias, veneno, congelación y maldiciones. El sudor amarillento cura toda clase de afecciones.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 2,000 almas después de entregarle el Tomo de piromancia del Gran Pantano.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 6, Fe 6"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "sudor_relampago",
+      "nombre": "Sudor relampago",
+      "descripcion": "Piromancia única del Gran Pantano asociada a Carmina. El sudor intenso aumenta la absorción de daño de fuego. Una piromancia influyente que interioriza la llama y sirve de base para conjuros posteriores.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 1,500 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 6, Fe 6"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "tempestad_de_fuego",
+      "nombre": "Tempestad de fuego",
+      "descripcion": "Piromancia de Cornyx del Gran Pantano. Emite una corriente constante de fuego. Cornyx es un piromántico venerable de la vieja escuela que, según cuentan, recuperó muchos conjuros perdidos de la antigüedad. Este es el más conocido de todos.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 1,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 6"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "tormenta_de_fuego",
+      "nombre": "Tormenta de fuego",
+      "descripcion": "Piromancia primigenia enseñada por Quelana, hija de la bruja de Izalith. Múltiples pilares de fuego rodean al lanzador. La tormenta arrasadora es indiscriminada; tal es el horror intrínseco de la llama.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Karla por 15,000 almas después de entregarle el Tomo de piromancia de Quelana.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 18"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "tormenta_del_caos",
+      "nombre": "Tormenta del caos",
+      "descripcion": "Arte de la Llama del Caos, de la antigua Izalith. Erige múltiples pilares de fuego del caos en las proximidades. La llama caótica funde incluso grandes rocas y crea una breve oleada de lava fundida al impactar. Con el tiempo, la Llama del Caos que lo envuelve todo formó un semillero tumultuoso que creó las formas de vida conocidas como 'demonios'.",
+      "versiones": [
+        {
+          "ubicacion": "La vende Cornyx del Gran Pantano por 12,000 almas después de entregarle el Tomo de piromancia de Izalith.",
+          "otros_detalles": {
+            "requerimientos": ""
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "vestigios_de_lecho_del_caos",
+      "nombre": "Vestigios de lecho del caos",
+      "descripcion": "Vestigios del semillero tumultuoso que creó las formas de vida conocidas como 'demonios'. Lanza una Llama del Caos que calcina las inmediaciones. Los demonios nacidos del fuego resistían su esencia ardiente y fallecían poco después. El hombre todavía comparte esta relación con las llamas.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al transponer el Alma del Viejo Rey Demonio con Ludleth de Courland.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 20, Fe 10",
+            "efecto": "Lanza una Llama del Caos que calcina las inmediaciones. Causa una gran cantidad de daño al golpear directamente."
+          }
+        }
+      ]
+    }
+  ]
+}

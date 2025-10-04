@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useMemo, useRef } from 'react';
+import React, { useEffect, useState, useMemo, useRef, version } from 'react';
 import {
   View,
   Text,
@@ -17,7 +17,14 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Ionicons from '@expo/vector-icons/Ionicons';
-import images from '../assets/images/imageRingsMap';
+
+//Imagenes mapeadas
+import imagesRings from '../assets/images/imgMap/imageRingsMap';
+import imagesGestures from '../assets/images/imgMap/imageGesturesMap';
+import imagesSorceries from '../assets/images/imgMap/imageSorceriesMap';
+import imagesPyromancies from '../assets/images/imgMap/imagePyromanciesMap';
+import imagesMiracles from '../assets/images/imgMap/imageMiraclesMap';
+
 import { colores } from '../theme/colores';
 
 /* =========================================================
@@ -71,7 +78,7 @@ const VersionItem = ({ version, index, onToggle }) => {
           )}
         </View>
 
-        <Pressable
+        {/* <Pressable
           onPress={handlePress}
           hitSlop={12}
           style={({ pressed }) => [
@@ -86,17 +93,30 @@ const VersionItem = ({ version, index, onToggle }) => {
             size={24}
             color={version.conseguido ? colores.dorado : colores.textoSuave}
           />
-        </Pressable>
+        </Pressable> */}
       </Pressable>
     </Animated.View>
   );
 };
 
+// Helper para calcular el estado de progreso
+function calcularEstadoDeProgreso(versiones) {
+  const total = versiones.length;
+  if (total === 0) return 'noIniciado';
+
+  const completados = versiones.filter(v => v.conseguido).length;
+
+  if (completados === 0) return 'noIniciado';
+  if (completados > 0 && completados < total) return 'enProgreso';
+
+  return 'completado';
+}
+
 /* =========================================================
    Pantalla de detalle del ítem
    ========================================================= */
 const ItemDetailScreen = ({ route }) => {
-  const { itemDetails } = route.params;
+  const { itemDetails, onUpdateItem,  categoryId } = route.params;
 
   const [versions, setVersions] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -150,9 +170,9 @@ const ItemDetailScreen = ({ route }) => {
       if (jsonValue !== null) {
         setVersions(JSON.parse(jsonValue));
       } else {
-        const initialVersions = itemDetails.versiones.map(v => ({
+        const initialVersions = (itemDetails.versiones || []).map(v => ({
           ...v,
-            conseguido: false
+          conseguido: false
         }));
         setVersions(initialVersions);
       }
@@ -164,20 +184,64 @@ const ItemDetailScreen = ({ route }) => {
   };
 
   const handleToggleVersion = (index) => {
-    setVersions(prev => {
+    const updatedVersions = versions.map((v, i) =>
+      i === index ? { ...v, conseguido: !v.conseguido } : v
+    );
+    setVersions(updatedVersions); // Actualiza el estado local para la UI
+
+    saveVersions(updatedVersions);
+
+    // DEvuelve el item completo y actualizaado a la pantalla anterior
+    if (onUpdateItem) {
+      const nuevoEstadoDeProgreso = calcularEstadoDeProgreso(updatedVersions);
+      const itemActualizado = {
+        ...itemDetails,
+        versiones: updatedVersions,
+        estadoDeProgreso: nuevoEstadoDeProgreso
+      };
+      onUpdateItem(itemActualizado);
+    }
+
+    /* setVersions(prev => {
       const updated = prev.map((v, i) =>
         i === index ? { ...v, conseguido: !v.conseguido } : v
       );
+      const updatedItem = { ...itemDetails, versiones: updated };
+
+      // Guardar en AsyncStorage
       saveVersions(updated);
+
+      if (onUpdateItem) {
+        onUpdateItem({ ...itemDetails, versiones: updated });
+      }
+
       return updated;
-    });
+    }); */
   };
 
+  /* const toggleTodas = () => {
+    const todasMarcadas = conseguidas === total && total > 0;
+    const updated = versions.map(v => ({ ...v, conseguido: !todasMarcadas }));
+    setVersions(updated);
+    saveVersions(updated);
+  }; */
+
+  //test
   const toggleTodas = () => {
     const todasMarcadas = conseguidas === total && total > 0;
     const updated = versions.map(v => ({ ...v, conseguido: !todasMarcadas }));
     setVersions(updated);
     saveVersions(updated);
+
+    if (onUpdateItem) {
+      const nuevoEstadoDeProgreso = calcularEstadoDeProgreso(updated);
+      const itemActualizado = {
+        ...itemDetails,
+        versiones: updated,
+        estadoDeProgreso: nuevoEstadoDeProgreso
+      };
+      onUpdateItem(itemActualizado);
+    }
   };
 
   useEffect(() => {
@@ -193,7 +257,21 @@ const ItemDetailScreen = ({ route }) => {
     );
   }
 
-  const imageSource = images?.[itemDetails?.imagen] || null;
+  const imageMaps = {
+    anillos: imagesRings,
+    gestures: imagesGestures,
+    sorceries: imagesSorceries,
+    pyromancies: imagesPyromancies,
+    miracles: imagesMiracles
+  };
+
+  // Selecciona el mapa correcto usando el categoryId que recibiste
+  // Si no encuentra uno, usa 'imagesRings' como opción segura.
+  const imageMap = imageMaps[categoryId] || imagesRings;
+  // Esta línea ya no necesita cambios, funcionará correctamente
+  const imageSource = imageMap?.[itemDetails?.imagen] || null;
+
+  //const imageSource = imagesRings?.[itemDetails?.imagen] || null;
 
   return (
     <SafeAreaView style={styles.safeArea}>
@@ -233,39 +311,39 @@ const ItemDetailScreen = ({ route }) => {
 
         {/* Progreso de versiones */}
         <View style={styles.progressPanel}>
-            <View style={styles.progressHeaderRow}>
-              <Text style={styles.versionsTitle}>Versiones</Text>
-              {total > 0 && (
-                <Pressable
-                  onPress={toggleTodas}
-                  style={({ pressed }) => [
-                    styles.toggleAllBtn,
-                    pressed && { opacity: 0.7 }
-                  ]}
-                >
-                  <Ionicons
-                    name={conseguidas === total && total > 0 ? 'checkmark-done' : 'checkbox'}
-                    size={16}
-                    color={colores.doradoSuave}
-                    style={{ marginRight: 6 }}
-                  />
-                  <Text style={styles.toggleAllText}>
-                    {conseguidas === total && total > 0 ? 'Desmarcar todas' : 'Marcar todas'}
-                  </Text>
-                </Pressable>
-              )}
-            </View>
-
+          <View style={styles.progressHeaderRow}>
+            <Text style={styles.versionsTitle}>Versiones</Text>
             {total > 0 && (
-              <>
-                <View style={styles.progressBarOuter}>
-                  <View style={[styles.progressBarInner, { width: `${progreso * 100}%` }]} />
-                </View>
-                <Text style={styles.progressStats}>
-                  {conseguidas} / {total} conseguidas
+              <Pressable
+                onPress={toggleTodas}
+                style={({ pressed }) => [
+                  styles.toggleAllBtn,
+                  pressed && { opacity: 0.7 }
+                ]}
+              >
+                <Ionicons
+                  name={conseguidas === total && total > 0 ? 'checkmark-done' : 'checkbox'}
+                  size={16}
+                  color={colores.doradoSuave}
+                  style={{ marginRight: 6 }}
+                />
+                <Text style={styles.toggleAllText}>
+                  {conseguidas === total && total > 0 ? 'Desmarcar todas' : 'Marcar todas'}
                 </Text>
-              </>
+              </Pressable>
             )}
+          </View>
+
+          {total > 0 && (
+            <>
+              <View style={styles.progressBarOuter}>
+                <View style={[styles.progressBarInner, { width: `${progreso * 100}%` }]} />
+              </View>
+              <Text style={styles.progressStats}>
+                {conseguidas} / {total} conseguidas
+              </Text>
+            </>
+          )}
         </View>
 
         {/* Lista de versiones */}

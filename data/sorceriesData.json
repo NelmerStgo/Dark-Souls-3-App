@@ -1,0 +1,503 @@
+{
+  "sorceries": [
+    {
+      "imagen": "afinidad",
+      "nombre": "Afinidad",
+      "descripcion": "Un hechizo oscuro prohibido. Proyecta una oscura manifestación de humanidad. Parece ser una expresión de envidia, o quizá de amor hacia otro, que perseguirá con tenacidad a su objetivo. Incluso si, al igual que tantos deseos humanos, solo lo lleva a la desgracia.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Karla por 15,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 32"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "aliento_de_dragon_blanco",
+      "nombre": "Aliento de dragon blanco",
+      "descripcion": "Hechizo del crédulo Oceiros, el Rey Consumido. Emite aliento cristal de Seath el Descamado. El aliento de cristal tiene propiedades perforadoras. Parece que la investigación de Seath impactó al viejo Sombrero Grande, que en su loco y desnudo estado se apropió de obras divinas como esta. Sin duda Oceiros se sintió identificado con esto.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al transponer el Alma de Oceiros, Rey Consumido con Ludleth de Courland.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 50",
+            "efecto": "Emite el aliento de cristal de Seath el Descamado."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "alma_profunda",
+      "nombre": "Alma profunda",
+      "descripcion": "Hechizo del archidiácono Royce y sus diáconos. Cuentan que les fue impartido por McDonnell, del Valle Boreal. Dispara residuos de alma oscura. Almas que surgen de las profundidades persiguen a su objetivo, atraídas por la vida.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al transponer el Alma de Diáconos de la Oscuridad con Ludleth de Courland.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 12"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "arma_congelada",
+      "nombre": "Arma congelada",
+      "descripcion": "Uno de los hechizos que dejó el joven hechicero Sulyvahn antes de abandonar el Mundo Pintado. Añade congelación al arma de la mano derecha. Sulyvahn nació y se crio dentro del cuadro, pero no le gustaba su gélido hogar, puesto que aún no había experimentado la pérdida.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra entre las Moscas gigantes en un área infestada de huevos, cerca de la Cueva del puente suspendido, pasado el Campo de nieve.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15",
+            "efecto": "Añade 48 puntos de acumulación de congelación al arma de la mano derecha. El aumento dura 60 segundos."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "arma_magica",
+      "nombre": "Arma magica",
+      "descripcion": "Hechizo para hechiceros que blanden espadas. Refuerza el arma derecha con magia. El poder de los espadachines hechiceros de Vinheim está contenido en este hechizo y el escudo mágico. Muchos guerreros aprenden magia solo por este hechizo.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Yoel de Londor (o Yuria de Londor tras la muerte de este) por 4,500 almas. | Lo vende Orbeck de Vinheim por 3,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 10"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "arma_magica_de_cristal",
+      "nombre": "Arma magica de cristal",
+      "descripcion": "Mejora más el arma mágica mediante la cristalización. Refuerza el arma derecha con cristal. Tras mucho experimentar, Logan descubrió que el medio de cristal facilitaba un vínculo más fuerte entre arma y alma.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 10,000 almas tras entregarle el Pergamino de cristal.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 30"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "arma_oculta",
+      "nombre": "Arma oculta",
+      "descripcion": "Hechizo perdido de Oolacile, una tierra de antiguos hechizos dorados. Vuelve invisible el arma derecha. El arma en sí no experimenta cambios inherentes. Como en cualquier otra herramienta, su utilidad depende del ingenio del lanzador.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 1,500 almas tras entregarle el Pergamino dorado.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 12"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "asustar",
+      "nombre": "Asustar",
+      "descripcion": "Hechizo creado por cierto hechicero subrepticio de la Escuela de Dragones de Vinheim. Enmascara el ruido y reduce el daño de caída. El simple hecho de dominar este hechizo permite que los espías de Vinheim exijan un precio elevado por sus servicios.",
+      "versiones": [
+        {
+          "ubicacion": "Parte del equipo inicial de la Clase Asesino. | Lo vende Orbeck de Vinheim por 2,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 10"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "camaleon",
+      "nombre": "Camaleon",
+      "descripcion": "Hechizo perdido de Oolacile, una tierra de antiguos hechizos dorados. Te transforma en algo que no llama la atención. Lejos de estar desarrollada formalmente, esta magia es en realidad el resultado de la travesura de una joven que buscaba consuelo frente a la soledad de los bosques al anochecer.",
+      "versiones": [
+        {
+          "ubicacion": "Lo suelta la Anciana de Londor en la Iglesia de Yorshka (siguiendo la questline de Anri de Astora). La paregrina aparece camuflada como una estatua en una de las esquinas de la sala. - El hechizo también aparece junto con el cadáver de la peregrina tras un muro ilusorio en la Tumba de la Luna Oscura, antes de llegar a Anor Londo. Para que el cadáver aparezca hay que seguir la questline de Yuria de Londor.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 12"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "chasquido_congelante",
+      "nombre": "Chasquido congelante",
+      "descripcion": "Uno de los hechizos que dejó el joven hechicero Sulyvahn antes de abandonar el Mundo Pintado. Crea una nube de niebla casi congelante. Sulyvahn nació y se crió dentro del cuadro pero no le gustaba su gélido hogar, puesto que aún no había experimentado la pérdida.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra después de la hoguera Las oscuridades del cuadro. Hay que correr hacia la izquierda, más allá de los Grandes cangrejos, encontrándose en un cadáver detrás de una Mujer de abedul.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 18"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "corriente_de_almas",
+      "nombre": "Corriente de almas",
+      "descripcion": "Hechizo impartido por el primer erudito, cuando Lothric y el Gran Archivo eran jóvenes. Dispara un torrente de almas. El primer erudito dudaba del Enlace del Fuego y, según dicen, fue mentor privado del príncipe real.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra detrás de una pared ilusoria en el Gran Archivo. La pared se encuentra en los niveles superiores.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 45",
+            "efecto": "Dispara un torrente de almas que causa daño mágico a cualquier enemigo dentro de su rango. Este hechizo tiene un alcance virtualmente ilimitado y por lo tanto puede ser apuntado desde una larga distancia. La Corriente de almas golpea varias veces y si todos los golpes caen, causa el mayor daño por hechizo en el juego."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "cuerpo_oculto",
+      "nombre": "Cuerpo oculto",
+      "descripcion": "Hechizo perdido de Oolacile, una tierra de antiguos hechizos dorados. Vuelve el cuerpo prácticamente invisible. Aunque la invisibilidad completa es inalcanzable debido al riesgo de disipación, el lanzador solo necesita permanecer quieto un momento para camuflarse con el entorno.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 3,000 almas tras entregarle el Pergamino dorado.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "dardo_de_farron",
+      "nombre": "Dardo de Farron",
+      "descripcion": "Variación de la flecha de alma desarrollada por los hechiceros de la Legión de los no muertos de Farron. Dispara un dardo de alma. Se trata de un conocido hechizo de Farron que se aprendió en muchos lugares debido a su utilidad.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende la Sirvienta del Santuario por 1,000 almas. | Lo vende Orbeck de Vinheim por 500 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 8"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "escudo_magico",
+      "nombre": "Escudo magico",
+      "descripcion": "Hechizo para lanzadores que blanden espadas. Refuerza el escudo izquierdo con magia. Los escudos mejorados con magia poseen mayor estabilidad y absorción de daño. Incluso el escudo más pequeño puede endurecerse considerablemente con este conjuro.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Yoel de Londor (o Yuria de Londor tras la muerte de este) por 4,500 almas. | Lo vende Orbeck de Vinheim por 3,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 10"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "espada_brillante_de_farron",
+      "nombre": "Espada brillante de Farron",
+      "descripcion": "Alteración de Espadón de alma desarrollada por los hechiceros de la Legión de los no muertos de Farron. La Legión tiene tendencia a dar prioridad a la velocidad antes que a la potencia, y esta alteración práctica de un hechizo existente no es una excepción.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 5,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 23"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "espadon_de_alma",
+      "nombre": "Espadon de alma",
+      "descripcion": "Hechizo creado principalmente para los espadachines hechiceros. Ataca con un espadón formado por almas. La espada efímera solo existe como una extensión de su lanzador, pero se dice que su poder rivaliza con el de los espadones físicos. Incluso los puristas de la magia más obstinados pueden recurrir a este conjuro en momentos de necesidad.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Yoel de Londor (o Yuria de Londor tras la muerte de este) por 5,000 almas. | Lo vende Orbeck de Vinheim por el mismo precio.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 22"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "filo_oscuro",
+      "nombre": "Filo oscuro",
+      "descripcion": "Un hechizo prohibido. Golpea con una espada de oscuridad humana. Pasada de madre a hija, esta espada fue concebida para protegerse y como una forma de quitarse la vida. La joven nunca la blandió más de una vez.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Karla por 8,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 30"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "flecha_de_alma",
+      "nombre": "Flecha de alma",
+      "descripcion": "Hechizo elemental. Dispara una flecha del alma. Para usar hechizos, equípate con un bastón y aprende un hechizo en la hoguera.",
+      "versiones": [
+        {
+          "ubicacion": "Equipo inicial de la Clase Hechicero. | Lo vende la Sirvienta del Santuario por 2,000 almas. | Lo vende Yoel de Londor (o Yuria de Londor tras la muerte de este) por 1,000 almas. | Lo vende Orbeck de Vinheim por 1,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 10"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "flecha_de_alma_pesada",
+      "nombre": "Flecha de alma pesada",
+      "descripcion": "Un hechizo elemental pero práctico de antaño. Dispara una flecha de alma pesada. Ofrece un mayor poder, pero prolonga el tiempo de lanzamiento, causando una vulnerabilidad que dificulta el uso de este hechizo.",
+      "versiones": [
+        {
+          "ubicacion": "Equipo inicial de la Clase Hechicero. | Lo vende Yoel de Londor (o Yuria de Londor tras la muerte de este) por 2,000 almas. | Lo vende Orbeck de Vinheim por el mismo precio.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 13"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gran_alma_profunda",
+      "nombre": "Gran alma profunda",
+      "descripcion": "Hechizo que mejora el alma profunda. Dispara residuos de alma oscurecida más potentes. El archidiácono McDonnell, que también era hechicero, disfrutaba con las almas estancadas de la catedral. Para él, representaban los gloriosos cimientos de este mundo.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al alcanzar el rango +1 en el juramento Fiel Aldrich.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 20"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gran_arma_magica",
+      "nombre": "Gran arma magica",
+      "descripcion": "Hechizo que mejora el arma mágica. Refuerza en gran medida el arma derecha con magia. Solo los espadachines hechiceros con obligaciones especiales están autorizados a usar este conjuro. Cuentan que la espada celeste puede herir fácilmente a caballeros protegidos con armadura pesada.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra en el Torreón de Farron, bajando por el camino desde la hoguera Perímetro de Torreón de Farron, pasado el Lagarto de cristal voraz y el atajo que conduce de regreso al Camino de los Sacrificios.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gran_dardo_de_farron",
+      "nombre": "Gran dardo de Farron",
+      "descripcion": "Hechizo que mejora el dardo de Farron. Dispara un dardo de alma más potente. Confiado al líder de los acólitos de la Legión, parece ser un hechizo de su hija Heysel, refinado por un Sabio de cristal.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 2,000 almas tras haberle entregado el Pergamino de sabio.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 23"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gran_escudo_magico",
+      "nombre": "Gran escudo magico",
+      "descripcion": "Hechizo que mejora el escudo mágico. Refuerza en gran medida el escudo izquierdo con magia. Solo los espadachines hechiceros con obligaciones especiales están autorizados a usar este conjuro, que concede temporalmente la fuerza de un escudo grande incluso a los escudos más pequeños.",
+      "versiones": [
+        {
+          "ubicacion": "Lo suelta un Cadáver gusano en una celda de la Mazmorra de Irithyll.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 18"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gran_flecha_de_alma",
+      "nombre": "Gran flecha de alma",
+      "descripcion": "Hechizo que mejora la flecha de alma. Dispara una flecha de alma más potente. Muchos hechizos infligen daño mágico, por lo que son efectivos contra armaduras de hierro, escamas duras y otros materiales físicamente resistentes.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 3,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gran_flecha_de_alma_pesada",
+      "nombre": "Gran flecha de alma pesada",
+      "descripcion": "Hechizo que mejora la flecha de alma pesada. Dispara una flecha de alma pesada más potente. Los hechizos son una disciplina lógica; la inteligencia del lanzador afecta a su potencia.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 4,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 18"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "grandes_residuos_de_alma",
+      "nombre": "Grandes residuos de alma",
+      "descripcion": "Hechizo que lanza grandes residuos de alma oscura acumulados en las profundidades. Es la manifestación máxima del Alma profunda. Algunos de los hombres lúgubres que surgen de las profundidades están poseídos por residuos de alma, cuya forma es muy similar a la humana.",
+      "versiones": [
+        {
+          "ubicacion": "Se encuentra en el montón de residuos. Tras encontrar a los primeros Caballeros de Lothric en el área, el jugador debe salir de la capilla y girar hacia la derecha hasta entrar en un edificio plagado de Hombres lúgubres. Al final del pasillo hay un muro ilusorio que revela unas escaleras que conducen al segundo piso. El hechizo se encuentra en un cadáver al final de la última sala, custodiado por varios Hombres lúgubres.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 40"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "granizo_de_cristal",
+      "nombre": "Granizo de cristal",
+      "descripcion": "Hechizo único desarrollado por los extraordinarios gemelos predicadores, conocidos como los Sabios de cristal.Hace que caigan pequeñas masas de alma de cristal. Las masas de alma de cristal tienen propiedades perforadoras. En un pacto que se firmó hace mucho tiempo, uno de los Sabios se alió con la Legión de los no muertos para entrenar a los hechiceros de Farron.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al transponer con Ludleth de Courland el Alma de Sabio de cristal junto con 1,500 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 18",
+            "efecto": "Emite una cascada de masas de alma de cristal que caen desde arriba como lluvia en el lugar de destino."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "granizo_de_farron",
+      "nombre": "Granizo de Farron",
+      "descripcion": "Hechizo que mejora el dardo de Farron. Dispara una cascada de dardos de alma. Confiado al líder de los acólitos de la Legión, parece ser un hechizo de su hija Heysel, refinado por un Sabio de cristal.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 5,000 almas después de entregarle el Pergamino de sabio.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 28"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "lanza_de_alma",
+      "nombre": "Lanza de alma",
+      "descripcion": "Hechizo desarrollado por Sombrero Grande Logan, el gran hechicero que abandonó la Escuela de Dragones hace mucho tiempo. Dispara una lanza de alma. La lanza posee un mayor poder perforador y demuestra el poder en combate de Logan.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 5,000 almas después de entregarle el Pergamino de Logan.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 32"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "lanza_de_alma_de_cristal",
+      "nombre": "Lanza de alma de cristal",
+      "descripcion": "Mejora más la lanza de alma mediante la cristalización. Dispara una lanza de alma de cristal perforadora. Según los Sabios de cristal, el anciano Sombrero Grande alcanzó la iluminación en los Archivos Reales, donde encontró la quintaesencia de la magia en las facetas de cierto cristal.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 15,000 almas después de entregarle el Pergamino de cristal.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 48"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "lanzar_luz",
+      "nombre": "Lanzar luz",
+      "descripcion": "Hechizo perdido de Oolacile, uan tierra de antiguos hechizos dorados. Proyecta una luz que ilumina el entorno. Esta magia que produce luz es elemental, pero demuestra la naturaleza pura de los hechizos dorados, hechizos que ni siquiera la Escuela de Dragones ha conseguido desarrollar.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 1,000 almas después de entregarle el Pergamino dorado.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "luz_de_luna_antigua",
+      "nombre": "Luz de luna antigua",
+      "descripcion": "Recuerdo de una vieja espada hallada en Midir. Este hechizo usa almas para dar forma al pensamiento y atacar con él. Los ataques se ligan con ondas de luz. Mantener la postura de combate antes de atacar aumenta su velocidad y potencia. La espada lleva el nombre de la luz de luna, pero se diferencia ligeramente de la del dragón pálido, Seath. Quizá esté enraizada en un recuerdo más antiguo, poco después del Principio.",
+      "versiones": [
+        {
+          "ubicacion": "Se obtiene al transponer el Alma de Midir, devorador de oscuridad con Ludleth de Courland.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 25"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "masa_de_alma_de_cristal_dirigida",
+      "nombre": "Masa de alma de cristal dirigida",
+      "descripcion": "Mejora la masa de almas dirigida mediante la cristalización. Libera una masa de almas de cristal dirigida. La masa de almas de cristal tiene propiedades perforadoras. Según los Sabios de cristal, el anciano Sombrero Grande alcanzó la iluminación en los Archivos Reales, donde encontró la quintaesencia de la magia en las facetas de cierto cristal.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 18,000 almas después de entregarle el Pergamino de cristal.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 30"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "masa_de_alma_dirigida",
+      "nombre": "Masa de alma dirigida",
+      "descripcion": "Hechizo desarrollado por Sombrero Grande Logan, el gran hechicero que abandonó la Escuela de Dragones hace mucho tiemo. Libera una masa de alma dirigida. Este hechizo puede ofrecer una pista sobre aquello que buscaba Logan, pero una investigación más minuciosa sugiere que su atracción por las cosas vivas es un reflejo de la naturaleza de la oscuridad.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 6,000 almas después de entregarle el Pergamino de Logan.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 20"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "muro_de_luz_retorcido",
+      "nombre": "Muro de luz retorcido",
+      "descripcion": "Hechizo perdido de Oolacile, una tierra de antiguos hechiceros dorados. Distorsiona la luz para desviar la magia. Un conjuro de manipulación de la luz celosamente guardado que retuerce el mismísimo entramado de las leyes fundamentales y niega la magia al negar su estado físico.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 6,000 almas después de entregarle el Pergamino dorado.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 27"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "neblina_pestilente",
+      "nombre": "Neblina pestilente",
+      "descripcion": "Hechizo muy peligroso empleado por los espías de la Escuela de Dragones. Solo se enseña a miembros de confianza. Libera mercurio que consume los PS. Ten cuidado, pues quien lanza el hechizo no es inmune a sus efectos. El cuerpo atrapado por la silenciosa nube de mercurio se queda inmóvil mientras el rostro se retuerce con un grito de tormento. Los nombres de estos hechiceros inspiraban temor por este espantoso espectáculo.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 1,000 almas tras haberle dado el Pergamino de sabio.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 30",
+            "efecto": "Crea una nube de niebla que inflige daño mágico a cualquier cosa dentro de ella, incluido el lanzador."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "reparar",
+      "nombre": "Reparar",
+      "descripcion": "Hechizo perdido de Oolacile, una tierra de antiguos hechizos dorados. Repara las armas y la armadura equipadas. Incluso armas cuya durabilidad se haya agotado. Aunque los efectos de este conjuro son bastante sutiles, sus cimientos son un secreto celosamente guardado. La Luz es tiempo, e invertir sus efectos es un arte prohibido.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 2,000 almas después de entregarle el Pergamino dorado.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 15"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "señuelo_auditivo",
+      "nombre": "Señuelo auditivo",
+      "descripcion": "Hechizo creado por cierto hechicero subrepticio de la Escuela de Dragones de Vinheim. Distrae a los enemigos con un sonido lejano. El sonido posee una resonancia extrañamente contagiosa que puede hacer que alguien abandone su puesto y exponga su retaguardia.",
+      "versiones": [
+        {
+          "ubicacion": "Lo vende Orbeck de Vinheim por 2,000 almas.",
+          "otros_detalles": {
+            "requerimientos": "Inteligencia 18"
+          }
+        }
+      ]
+    }
+  ]
+}

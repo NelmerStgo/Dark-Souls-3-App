@@ -1,0 +1,435 @@
+{
+  "gestures": [
+    {
+      "imagen": "acurrucarse",
+      "nombre": "Acurrucarse",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Hablar con Greirat del Asentamiento de no muertos tras entregarle el Hueso de Loretta."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "alegrarse",
+      "nombre": "Alegrarse",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Catedral de la Oscuridad",
+          "otros_detalles": {
+            "condiciones": "Entregarle el Conjunto de Catarina a Siegward de Catarina cuando está atrapado en el pozo fuera de la Capilla de Purificación."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "alegría",
+      "nombre": "Alegría",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "",
+          "otros_detalles": {
+            "condiciones": "Gesto inicial."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "alabar_al_sol",
+      "nombre": "Alabar al Sol",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Castillo de Lothric",
+          "otros_detalles": {
+            "condiciones": "Interactuar con el Altar de la Luz Solar."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "aliado_silencioso",
+      "nombre": "Aliado silencioso",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Hablar con Orbeck de Vinheim tras comprarle los hechizos Señuelo auditivo, Espada brillante de Farron, Neblina pestilente y Asustar."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "aplauso",
+      "nombre": "Aplauso",
+      "descripcion": "Breve descripción de la expresión",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Hablar con Leonhard el Dedo Anular tras unirse al juramento Dedos de Rosaria."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "apuntar_abajo",
+      "nombre": "Apuntar abajo",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "",
+          "otros_detalles": {
+            "condiciones": "Gesto inicial."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "apuntar_hacia_delante",
+      "nombre": "Apuntar hacia delante",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "",
+          "otros_detalles": {
+            "condiciones": "Gesto inicial."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "apuntar_arriba",
+      "nombre": "Apuntar arriba",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "",
+          "otros_detalles": {
+            "condiciones": "Gesto inicial."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "bienvenida",
+      "nombre": "Bienvenida",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Hablar con Cornyx del Gran Pantano en el Santuario de Enlace."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "brindar",
+      "nombre": "Brindar",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Asentamiento de no muertos | Catedral de la Oscuridad",
+          "otros_detalles": {
+            "condiciones": "Hablar con Siegward de Catarina después del combate contra el Demonio. También se obtiene al entregarle su armadura en la Catedral de la Oscuridad."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "camino_del_dragón",
+      "nombre": "Camino del dragón",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Jardín del Rey Consumido",
+          "otros_detalles": {
+            "condiciones": "Se obtiene del cadáver de un Caballero Sangre de Draco, en la sala que se encuentra más allá de la arena del jefe Oceiros, el Rey Consumido.",
+            "extra": "Este gesto es requerido para acceder al Pico del Archidragón."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "derrumbarse",
+      "nombre": "Derrumbarse",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Hablar con Hawkwood el Desertor."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "descansar",
+      "nombre": "Descansar",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Cementerio de Ceniza",
+          "otros_detalles": {
+            "condiciones": "Descansar en cualquier hoguera por primera vez."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "determinación_silenciosa",
+      "nombre": "Determinación silenciosa",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Irithyll del Valle Boreal",
+          "otros_detalles": {
+            "condiciones": "Hablar con Anri de Astora en la Iglesia de Yorshka."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "dormir",
+      "nombre": "Dormir",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Asentamiento de no muertos | Irithyll del Valle Boreal",
+          "otros_detalles": {
+            "condiciones": "Hablar con Siegward de Catarina cuando está durmiendo, después del combate contra el Demonio. También se obtiene al entregarle su armadura en la Catedral de la Oscuridad o cuando está durmiendo en la cocina de la Mansión lejana."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "duelo",
+      "nombre": "Duelo",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Torreón de Farron | Irithyll del Valle Boreal",
+          "otros_detalles": {
+            "condiciones": "Se obtiene automáticamente al invocar a la Sombra pálida de Londor."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "en_cuclillas",
+      "nombre": "En cuclillas",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Hablar con Parches en el Santuario de Enlace."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "etiqueta_de_la_legión",
+      "nombre": "Etiqueta de la legión",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Torreón de Farron",
+          "otros_detalles": {
+            "condiciones": "Interactuar con el Viejo lobo de Farron."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "gracias",
+      "nombre": "Gracias",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Catacumbas de Carthus | Lago Ardiente",
+          "otros_detalles": {
+            "condiciones": "Se obtiene automáticamente al matar a Asesino de Caballeros Tsorig (o al ser asesinado por él)."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "hacer_reverencia",
+      "nombre": "Hacer reverencia",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Gesto inicial.",
+          "otros_detalles": {
+            "condiciones": "Condición para desbloquear"
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "hacer_señas",
+      "nombre": "Hacer señas",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Agotar el diálogo de Yoel de Londor en el Santuario de Enlace."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "hurrah",
+      "nombre": "Hurrah",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Agotar el diálogo del herrero Andre."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "llamar",
+      "nombre": "Llamar",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Intercambiar un objeto con el pájaro en el nido."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "lealtad_luna_oscura",
+      "nombre": "Lealtad Luna Oscura",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Hablar con Sirris de los Reinos sin sol tras entregarle las Cenizas de soñador a la Sirvienta del Santuario.",
+            "extra": "Este gesto es requerido para unirse al juramento Espada de la Luna Oscura."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "oración",
+      "nombre": "Oración",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Asentamiento de no muertos",
+          "otros_detalles": {
+            "condiciones": "Obtenido al aceptar 'tocar' a Irina de Carim en su celda."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "por_mi_espada",
+      "nombre": "Por mi espada",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Torreón de Farron | Irithyll del Valle Boreal",
+          "otros_detalles": {
+            "condiciones": "Se obtiene automáticamente al invocar a Gotthard Mano Negra."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "postración",
+      "nombre": "Postración",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Catedral de la Oscuridad | Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Confrontar a Parches después de que baja el puente en la Catedral de la Oscuridad. Si no se lo obtiene en esa ubicación, Parches enseñará el gesto en el Santuario de Enlace."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "reverencia",
+      "nombre": "Reverencia",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Torreón de Farron",
+          "otros_detalles": {
+            "condiciones": "Obtenido al invocar a Heysel Dedo Amarillo como un fantasma blanco cerca de la hoguera Ruinas del torreón. Para poder invocarla, Heysel debe ser derrotada una vez como invasora (en el pantano venenoso del torreón), hay que extinguir el fuego de las tres torres del Torreón de Farron, y el jugador debe unirse al juramento Dedos de Rosaria y ofrecerle una Lengua pálida a Rosaria, madre del renacer."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "reverencia_digna",
+      "nombre": "Reverencia digna",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Santuario de Enlace",
+          "otros_detalles": {
+            "condiciones": "Hablar con Yuria de Londor."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "saltar_de_alegría",
+      "nombre": "Saltar de alegría",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "",
+          "otros_detalles": {
+            "condiciones": "Gesto inicial."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "saludo",
+      "nombre": "Saludo",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "",
+          "otros_detalles": {
+            "condiciones": "Gesto inicial."
+          }
+        }
+      ]
+    },
+    {
+      "imagen": "estirar",
+      "nombre": "Estirar",
+      "descripcion": "",
+      "versiones": [
+        {
+          "ubicacion": "Capital Profanada",
+          "otros_detalles": {
+            "condiciones": "Obtenido del cadáver de Maestro Gilligan, cerca de la hoguera Capital Profanada."
+          }
+        }
+      ]
+    }
+  ]
+}

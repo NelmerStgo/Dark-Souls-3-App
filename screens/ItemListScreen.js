@@ -1,4 +1,4 @@
-import React, { useCallback, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useRef, useState } from 'react';
 import {
   View,
   StyleSheet,
@@ -13,8 +13,14 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useFocusEffect } from '@react-navigation/native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
+// Data
 import ringsData from '../data/ringsData_v5.json';
+import gesturesData from '../data/gesturesData.json';
+import sorceriesData from '../data/sorceriesData.json';
+import pyromanciesData from '../data/pyromanciesData.json';
+import miraclesData from '../data/miraclesData.json';
 
+// Componentes
 import ListItem from '../components/ListItem';
 import FilterModal from '../components/FilterModal';
 import BotonFiltroModal from '../components/BotonFiltroModal';
@@ -26,7 +32,11 @@ import { colores } from '../theme/colores';
 
 // Fuentes de datos por categoría
 const dataSources = {
-  rings: ringsData.anillos
+  rings: ringsData.anillos,
+  gestures: gesturesData.gestures,
+  sorceries: sorceriesData.sorceries,
+  pyromancies: pyromanciesData.pyromancies,
+  miracles: miraclesData.miracles
 };
 
 const ItemListScreen = ({ route, navigation }) => {
@@ -40,7 +50,8 @@ const ItemListScreen = ({ route, navigation }) => {
     setFiltro,
     cargando,
     cargarItems,
-    resetearProgreso
+    resetearProgreso,
+    actualizarUnItem
   } = useProgresoItems(dataSource);
 
   const [modalVisible, setModalVisible] = useState(false);
@@ -112,15 +123,19 @@ const ItemListScreen = ({ route, navigation }) => {
     }, [cargarItems])
   );
 
+  // Actualizacion del item
   const handleItemPress = useCallback(
-    (item) => {
+    (item, index) => {
       navigation.navigate('ItemDetail', {
-        itemId: item.nombre,
-        itemName: item.nombre,
-        itemDetails: item
+        itemDetails: item,
+        categoryId: categoryId,
+        // actualiza SOLO el ítem modificado
+        onUpdateItem: (updatedItem) => {
+          actualizarUnItem(index, updatedItem);
+        }
       });
     },
-    [navigation]
+    [navigation, actualizarUnItem, categoryId]
   );
 
   const onScroll = useCallback((e) => {
@@ -145,15 +160,17 @@ const ItemListScreen = ({ route, navigation }) => {
     );
   }, [categoryName, resetearProgreso]);
 
+  // item render
   const renderItem = useCallback(
-    ({ item }) => (
+    ({ item, index }) => (
       <ListItem
         item={item}
-        onPress={() => handleItemPress(item)}
-        mostrarVersiones={false} // puedes poner true si quieres el badge dentro de la lista
+        onPress={() => handleItemPress(item, index)}
+        mostrarVersiones={true} // puedes poner true/false si quieres el badge dentro de la lista
+        categoryId={categoryId}
       />
     ),
-    [handleItemPress]
+    [handleItemPress, categoryId]
   );
 
   const keyExtractor = useCallback(item => item.nombre, []);

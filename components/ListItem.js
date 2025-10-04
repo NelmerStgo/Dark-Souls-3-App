@@ -8,7 +8,13 @@ import {
 } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { colores } from '../theme/colores';
-import images from '../assets/images/imageRingsMap';
+
+// Img Mapeadas
+import imagesRings from '../assets/images/imgMap/imageRingsMap';
+import imagesGestures from '../assets/images/imgMap/imageGesturesMap';
+import imagesSorceries from '../assets/images/imgMap/imageSorceriesMap';
+import imagesPyromancies from '../assets/images/imgMap/imagePyromanciesMap';
+import imagesMiracles from '../assets/images/imgMap/imageMiraclesMap';
 
 /**
  * ListItem
@@ -17,7 +23,7 @@ import images from '../assets/images/imageRingsMap';
  *  - onPress: function(item)
  *  - mostrarVersiones (opcional) => si quieres ocultar el badge de progreso
  */
-const ListItem = ({ item, onPress, mostrarVersiones = true }) => {
+const ListItem = ({ item, onPress, mostrarVersiones = true, categoryId }) => {
 
     // Determinar icono según estado
     const { iconName, iconColor } = useMemo(() => {
@@ -32,8 +38,18 @@ const ListItem = ({ item, onPress, mostrarVersiones = true }) => {
         }
     }, [item.estadoDeProgreso]);
 
+
+    const imageMaps = {
+        anillos: imagesRings,
+        gestures: imagesGestures,
+        sorceries: imagesSorceries,
+        pyromancies: imagesPyromancies,
+        miracles: imagesMiracles
+    };
+
     // Imagen
-    const imageSource = images[item.imagen];
+    const imageMap = imageMaps[categoryId] || imagesRings; // Usa 'rings' como fallback
+    const imageSource = imageMap?.[item.imagen] || null;
     const versionesTotales = item.versiones?.length || 0;
     const versionesCompletadas = item.versiones
         ? item.versiones.filter(v => v.conseguido).length
@@ -85,7 +101,7 @@ const ListItem = ({ item, onPress, mostrarVersiones = true }) => {
                                 </Text>
                             </View>
                             {item.estadoDeProgreso === 'enProgreso' && (
-                                <Text style={styles.subEstado}>Progreso parcial</Text>
+                                <Text style={styles.subEstado}>En progreso...</Text>
                             )}
                             {item.estadoDeProgreso === 'completado' && (
                                 <Text style={styles.subEstadoCompletado}>¡Completado!</Text>
@@ -120,6 +136,7 @@ const areEqual = (prevProps, nextProps) => {
 
     if (prev.nombre !== next.nombre) return false;
     if (prev.estadoDeProgreso !== next.estadoDeProgreso) return false;
+    if (prevProps.categoryId !== nextProps.categoryId) return false;
 
     const prevTot = prev.versiones?.length || 0;
     const nextTot = next.versiones?.length || 0;

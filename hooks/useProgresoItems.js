@@ -2,7 +2,7 @@
 // - Carga de ítems y cálculo de progreso global
 // - Filtro actual
 // - Reset de progreso
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo, useEffect } from 'react';
 import { obtenerVersionesItem, resetearTodoProgreso } from '../services/progresoItemsStorage';
 
 // Función auxiliar: determina si un ítem pasa el filtro
@@ -59,7 +59,47 @@ export function useProgresoItems(dataSource = []) {
         await cargarItems();
     }, [cargarItems]);
 
-    const itemsFiltrados = items.filter(i => coincideFiltro(i, filtro));
+
+    const actualizarUnItem = useCallback((index, updatedItem) => {
+        setItems(prevItems => {
+            const newItems = [...prevItems];
+            newItems[index] = updatedItem;
+            return newItems;
+        });
+    }, []);
+
+    // NUEVO: Añadimos un useEffect para recalcular el progreso
+    // Este efecto se ejecutará automáticamente CADA VEZ que el array 'items' cambie.
+    useEffect(() => {
+        // Evitamos calcular si no hay items cargados
+        if (items.length === 0) return;
+
+        let completadosGlobal = 0;
+        let totalGlobal = 0;
+
+        items.forEach(item => {
+            if (item.versiones && Array.isArray(item.versiones)) {
+                totalGlobal += item.versiones.length;
+                item.versiones.forEach(v => {
+                    if (v.conseguido) completadosGlobal++;
+                });
+            }
+        });
+
+        // Actualizamos el estado del progreso
+        setProgreso({ completed: completadosGlobal, total: totalGlobal });
+
+    }, [items]); // Se dispara cuando 'items' cambia.
+
+
+
+    //const itemsFiltrados = items.filter(i => coincideFiltro(i, filtro));
+
+    //test
+    const itemsFiltrados = useMemo(() =>
+        items.filter((i) => coincideFiltro(i, filtro)),
+        [items, filtro] // Solo se recalcula si 'items' o 'filtro' cambian
+    );
 
     return {
         items,
@@ -69,6 +109,7 @@ export function useProgresoItems(dataSource = []) {
         setFiltro,
         cargando,
         cargarItems,
-        resetearProgreso
+        resetearProgreso,
+        actualizarUnItem
     };
 }
