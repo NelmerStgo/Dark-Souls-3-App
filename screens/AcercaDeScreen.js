@@ -26,12 +26,12 @@ const linksData = [
     {
         icon: 'logo-linkedin',
         label: 'Ing. Nelmer Santiago Padrón',
-        url: '', // Rellena aquí tu LinkedIn
+        url: '', // LinkedIn
         kind: 'profile'
     },
     {
         icon: 'logo-github',
-        label: 'Repositorio / Perfil GitHub',
+        label: 'Repositorio',
         url: 'https://github.com/NelmerStgo/Dark-Souls-3-App.git',
         kind: 'code'
     }
@@ -124,8 +124,8 @@ const AboutScreen = () => {
 
     const introParagraphs = useMemo(
         () => [
-            'Bienvenido, Latente.',
-            'En un mundo donde la oscuridad y la desolación reinan, tú, un caballero errante en busca de la verdad, has tomado la antorcha para iluminar los rincones más sombríos del Reino de Lothric. Esta aplicación es tu fiel guía, diseñada para asistirte en tu arduo camino hacia la grandeza y la gloria.',
+            'Bienvenid@, Latente.',
+            'En un mundo donde la oscuridad y la desolación reinan, tú, un caballero errante en busca de la verdad, has tomado la antorcha para iluminar los rincones más sombríos del Reino de Lothric. \nEsta aplicación es tu fiel guía, diseñada para asistirte en tu arduo camino hacia la grandeza y la gloria.',
             'Aquí encontrarás los secretos mejor guardados: objetos ocultos, anillos ancestrales, gestos y hechizos olvidados. Nada quedará sin descubrir si mantienes encendida la llama.',
             'Adéntrate en este viaje, y que las brasas de tu determinación jamás se extingan.'
         ],
@@ -166,6 +166,15 @@ const AboutScreen = () => {
                     ))}
                 </SectionCard>
 
+                <SectionCard title="Aviso Legal">
+                    <Text style={styles.paragraph}>
+                        Esta es una aplicación no oficial creada por un fan y para fans de la comunidad. No está afiliada, asociada, autorizada, respaldada por, ni de ninguna manera oficialmente conectada con FromSoftware, Inc., Bandai Namco Entertainment Inc., o cualquiera de sus subsidiarias o afiliadas.
+                    </Text>
+                    <Text style={styles.paragraph}>
+                        "Dark Souls" y todos los nombres, imágenes y marcas relacionadas son propiedad de FromSoftware, Inc. y Bandai Namco Entertainment Inc.
+                    </Text>
+                </SectionCard>
+
                 {/* Versión */}
                 <SectionCard title="Versión de la aplicación">
                     <View style={styles.versionWrapper}>
@@ -173,13 +182,13 @@ const AboutScreen = () => {
                         <Text style={styles.versionText}>Versión 2.0.0</Text>
                     </View>
                     <Text style={styles.versionNote}>
-                        Mantente atento a futuras actualizaciones con más categorías y optimizaciones.
+                        Mantente atent@ a futuras actualizaciones con más categorías y optimizaciones.
                     </Text>
                 </SectionCard>
 
                 {/* Footer */}
                 <View style={styles.footer}>
-                    <Text style={styles.footerText}>© {currentYear} Dark Seeker App</Text>
+                    <Text style={styles.footerText}>© {currentYear} Ashen Codex App</Text>
                     <Text style={styles.footerSub}>Un compendio para los que aún vigilan la llama.</Text>
                 </View>
             </ScrollView>
@@ -251,7 +260,7 @@ const styles = StyleSheet.create({
     sectionUnderline: {
         height: 1,
         width: '100%',
-    
+
         backgroundColor: '#3A2F20',
         borderRadius: 2,
         marginBottom: 4

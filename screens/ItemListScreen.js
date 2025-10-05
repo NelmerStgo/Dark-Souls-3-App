@@ -26,7 +26,9 @@ import FilterModal from '../components/FilterModal';
 import BotonFiltroModal from '../components/BotonFiltroModal';
 import ResumenProgreso from '../components/ResumenProgreso';
 import EstadoVacio from '../components/EstadoVacio';
+import ScrollToTopButton from '../components/ScrollToTopButton';
 
+// Hooks
 import { useProgresoItems } from '../hooks/useProgresoItems';
 import { colores } from '../theme/colores';
 
@@ -38,6 +40,8 @@ const dataSources = {
   pyromancies: pyromanciesData.pyromancies,
   miracles: miraclesData.miracles
 };
+
+const ITEM_HEIGHT = 84; // Altura del item (74) + marginBottom (10)
 
 const ItemListScreen = ({ route, navigation }) => {
   const { categoryId, categoryName } = route.params;
@@ -62,19 +66,10 @@ const ItemListScreen = ({ route, navigation }) => {
   const cargadoInicialRef = useRef(false);
   const volviendoRef = useRef(false);
 
-  // Mostrar / ocultar botón flotante "Ir arriba"
+  // Estado que controla la visibilidad del botón flotante "Ir arriba"
   const mostrarIrArribaRef = useRef(false); // estado lógico fuera de React para evitar renders en cada scroll
   const [mostrarIrArriba, setMostrarIrArriba] = useState(false);
-  const fabAnim = useRef(new Animated.Value(0)).current; // 0 oculto, 1 visible
-
-  const animarFab = (to) => {
-    Animated.timing(fabAnim, {
-      toValue: to,
-      duration: 180,
-      easing: Easing.out(Easing.quad),
-      useNativeDriver: true
-    }).start();
-  };
+  
 
   const manejarVisibilidadFab = (offsetY) => {
     const umbral = 400;
@@ -82,7 +77,6 @@ const ItemListScreen = ({ route, navigation }) => {
     if (debeMostrar !== mostrarIrArribaRef.current) {
       mostrarIrArribaRef.current = debeMostrar;
       setMostrarIrArriba(debeMostrar);
-      animarFab(debeMostrar ? 1 : 0);
     }
   };
 
@@ -166,11 +160,21 @@ const ItemListScreen = ({ route, navigation }) => {
       <ListItem
         item={item}
         onPress={() => handleItemPress(item, index)}
-        mostrarVersiones={true} // puedes poner true/false si quieres el badge dentro de la lista
+        mostrarVersiones={true} // true/false para mostrar/ocultar el badge dentro de la lista
         categoryId={categoryId}
       />
     ),
     [handleItemPress, categoryId]
+  );
+
+  // Optimización FlatList
+  const getItemLayout = useCallback(
+    (data, index) => ({
+      length: ITEM_HEIGHT,
+      offset: ITEM_HEIGHT * index,
+      index,
+    }),
+    []
   );
 
   const keyExtractor = useCallback(item => item.nombre, []);
@@ -196,6 +200,12 @@ const ItemListScreen = ({ route, navigation }) => {
         keyExtractor={keyExtractor}
         renderItem={renderItem}
         onScroll={onScroll}
+
+        getItemLayout={getItemLayout}
+        initialNumToRender={10}
+        maxToRenderPerBatch={10}
+        windowSize={11}
+        
         scrollEventThrottle={16}
         keyboardShouldPersistTaps="handled"
         contentContainerStyle={itemsFiltrados.length === 0 && estilos.vacioPadding}
@@ -216,37 +226,12 @@ const ItemListScreen = ({ route, navigation }) => {
 
       {/* Botón flotante "Ir arriba" */}
       {mostrarIrArriba && (
-        <Animated.View
-          pointerEvents={mostrarIrArriba ? 'auto' : 'none'}
-          style={[
-            estilos.fabContainer,
-            {
-              opacity: fabAnim,
-              transform: [
-                {
-                  scale: fabAnim.interpolate({
-                    inputRange: [0, 1],
-                    outputRange: [0.85, 1]
-                  })
-                }
-              ]
-            }
-          ]}
-        >
-          <Pressable
-            onPress={() => {
-              flatListRef.current?.scrollToOffset({ offset: 0, animated: true });
-            }}
-            style={({ pressed }) => [
-              estilos.fab,
-              pressed && { opacity: 0.85, transform: [{ scale: 0.96 }] }
-            ]}
-            accessibilityRole="button"
-            accessibilityLabel="Ir al inicio de la lista"
-          >
-            <Ionicons name="arrow-up" size={20} color={colores.textoInverso} />
-          </Pressable>
-        </Animated.View>
+        <ScrollToTopButton
+          visible={mostrarIrArriba}
+          onPress={() => {
+            flatListRef.current?.scrollToOffset({ offset: 0, animated: true });
+          }}
+        />
       )}
     </SafeAreaView>
   );
@@ -266,26 +251,6 @@ const estilos = StyleSheet.create({
   vacioPadding: {
     paddingTop: 40,
     paddingBottom: 20
-  },
-  fabContainer: {
-    position: 'absolute',
-    right: 18,
-    bottom: 24
-  },
-  fab: {
-    backgroundColor: colores.dorado,
-    width: 50,
-    height: 50,
-    borderRadius: 28,
-    alignItems: 'center',
-    justifyContent: 'center',
-    shadowColor: '#000',
-    shadowOpacity: 0.4,
-    shadowOffset: { width: 0, height: 4 },
-    shadowRadius: 8,
-    elevation: 6,
-    borderWidth: 1,
-    borderColor: colores.bordeSuave
   }
 });
 

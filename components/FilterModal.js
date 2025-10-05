@@ -104,8 +104,8 @@ const FilterModal = ({
                     <View style={estilos.progressBox}>
                         <Ionicons name="stats-chart" size={18} color={colores.doradoSuave} style={{ marginRight: 8 }} />
                         <Text style={estilos.progressText}>
-                            Progreso: {progress.completed} / {progress.total} {" "}
-                            ({Math.round((progress.completed / progress.total) * 100)}%)
+                            Progreso: {progress.completed} / {progress.total} {"               "}
+                            ( {progress.total > 0 ? ((progress.completed / progress.total) * 100).toFixed(1) : '0'}%)
                         </Text>
                     </View>
 
@@ -278,7 +278,7 @@ const estilos = StyleSheet.create({
         fontSize: 14,
         fontWeight: '600',
         letterSpacing: 0.5
-    }
+    },
 });
 
 export default FilterModal;

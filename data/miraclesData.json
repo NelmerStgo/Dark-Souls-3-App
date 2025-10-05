@@ -3,13 +3,13 @@
     {
       "imagen": "arma_bendecida",
       "nombre": "Arma bendecida",
-      "descripcion": "Milagro enseñado a los caballeros de Lothric. Bendice el arma derecha, lo que aumenta el poder de ataque; además, restablece los PS de forma gradual. El Caballero es uno de los Tres Pilares de Lothric, y se dice que estrechó vínculos con la Suma Sacerdotisa después de que los eruditos adquirieran el Gran Archivo.",
+      "descripcion": "Milagro enseñado a los caballeros de Lothric. \nnBendice el arma derecha, lo que aumenta el poder de ataque; además, restablece los PS de forma gradual. \n\nEl Caballero es uno de los Tres Pilares de Lothric, y se dice que estrechó vínculos con la Suma Sacerdotisa después de que los eruditos adquirieran el Gran Archivo.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim por 8,000 almas después de entregarle el Tomo divino de Lothric en braille.",
           "otros_detalles": {
             "requerimientos": "Fe 15",
-            "efecto": "Bufa el arma de la mano derecha, aumentando el daño físico en un 7,5%, y también restaura PS de forma gradual durante 45 segundos. Además, el arma obtiene las mismas propiedades que un arma con infusión bendita, ya que infligirá daño adicional a los esqueletos y evitará que revivan."
+            "efecto": "Bufa el arma de la mano derecha, aumentando el daño físico en un 7,5%, y también restaura PS de forma gradual durante 45 segundos. \n\nAdemás, el arma obtiene las mismas propiedades que un arma con infusión bendita, ya que infligirá daño adicional a los esqueletos y evitará que revivan."
           }
         }
       ]
@@ -17,7 +17,7 @@
     {
       "imagen": "aureola_de_la_blanca_via",
       "nombre": "Aureola de la Blanca Vía",
-      "descripcion": "Milagro de la Blanca Vía. Emite un disco blanco que corta a través de los enemigos y regresa al conjurador. Hace tiempo, cuando las huellas de los dioses todavía eran profundas, los milagros de la Blanca Vía convivían con las aureolas. Aquellos que anhelaban las aureolas que habían desaparecido tiempo atrás creían fielmente que un día regresarían.",
+      "descripcion": "Milagro de la Blanca Vía. \nEmite un disco blanco que corta a través de los enemigos y regresa al conjurador. \n\nHace tiempo, cuando las huellas de los dioses todavía eran profundas, los milagros de la Blanca Vía convivían con las aureolas. \n\nAquellos que anhelaban las aureolas que habían desaparecido tiempo atrás creían fielmente que un día regresarían.",
       "versiones": [
         {
           "ubicacion": "Se encuentra dentro de la capilla al final del Asentamiento de cuervos en el Mundo Pintado de Ariandel.",
@@ -30,10 +30,10 @@
     {
       "imagen": "ayuda_de_curacion",
       "nombre": "Ayuda de curacion",
-      "descripcion": "Milagro ofrecido por caridad a gente de poca fe. Una muestra de tolerancia de la Blanca Vía. Restablece ligeramente los PS. Para usar milagros, equípate con un talismán o una campana sagrada y aprende un milagro en una hoguera.",
+      "descripcion": "Milagro ofrecido por caridad a gente de poca fe. Una muestra de tolerancia de la Blanca Vía. \n\nRestablece ligeramente los PS. \n\nPara usar milagros, equípate con un talismán o una campana sagrada y aprende un milagro en una hoguera.",
       "versiones": [
         {
-          "ubicacion": "Equipo inicial de la Clase Heraldo. | Lo vende la Sirvienta del Santuario por 500 almas.",
+          "ubicacion": "\n• Equipo inicial de la Clase Heraldo. \n\n• Lo vende la Sirvienta del Santuario por 500 almas.",
           "otros_detalles": {
             "requerimientos": "Fe 8"
           }
@@ -43,7 +43,7 @@
     {
       "imagen": "barrera_magica",
       "nombre": "Barrera magica",
-      "descripcion": "Milagro de los clérigos que blanden armas. Aumenta la absorción de daño mágico al cubrir el cuerpo con una capa protectora blanca. Hubo un breve periodo en la historia en el que clérigos y hechiceros estuvieron enfrentados. Por eso se hizo necesario que hasta los simples clérigos tuviesen una forma de defenderse de la magia",
+      "descripcion": "Milagro de los clérigos que blanden armas. \n\nAumenta la absorción de daño mágico al cubrir el cuerpo con una capa protectora blanca. \n\nHubo un breve periodo en la historia en el que clérigos y hechiceros estuvieron enfrentados. \nPor eso se hizo necesario que hasta los simples clérigos tuviesen una forma de defenderse de la magia",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim por 5,000 almas después de entregarle el Tomo divino de Lothric en braille.",
@@ -56,7 +56,7 @@
     {
       "imagen": "buscar_guia",
       "nombre": "Buscar guia",
-      "descripcion": "Milagro de almas desviadas. Muestra más ayuda de otros mundos y revela señales de invocación sin usar brasas. La fe sirve de guía a los clérigos, lo que significa que no necesitan sabiduría de segunda mano. Sea como sea, este milagro ha ido pasando de un alma a otra y proporcionando un pequeño rayo de esperanza a los perdidos.",
+      "descripcion": "Milagro de almas desviadas. \nMuestra más ayuda de otros mundos y revela señales de invocación sin usar brasas. \n\nLa fe sirve de guía a los clérigos, lo que significa que no necesitan sabiduría de segunda mano. \n\nSea como sea, este milagro ha ido pasando de un alma a otra y proporcionando un pequeño rayo de esperanza a los perdidos.",
       "versiones": [
         {
           "ubicacion": "Se encuentra en la Catedral de la Oscuridad. Hay que pasar por delante del primer Esclavo gigante en el segundo piso y tomar el camino de la izquierda después de bajar un pequeño conjunto de escaleras. Seguir por este camino hasta el final para alcanzar un cadáver que posee el milagro, debajo de una Carne podrida retorciéndose.",
@@ -69,10 +69,10 @@
     {
       "imagen": "curacion",
       "nombre": "Curacion",
-      "descripcion": "Milagro elemental que usan los clérigos. Restablece los PS del lanzador y de quienes se encuentran cerca. Para usar milagros, equípate con un talismán o una campana sagrada y aprende un milagro en una hoguera.",
+      "descripcion": "Milagro elemental que usan los clérigos. \nRestablece los PS del lanzador y de quienes se encuentran cerca. \n\nPara usar milagros, equípate con un talismán o una campana sagrada y aprende un milagro en una hoguera.",
       "versiones": [
         {
-          "ubicacion": "Equipo inicial de la Clase Clérigo. | Lo vende Irina de Carim por 1,000 almas.",
+          "ubicacion": "\n• Equipo inicial de la Clase Clérigo. \n\n• Lo vende Irina de Carim por 1,000 almas.",
           "otros_detalles": {
             "requerimientos": "Fe 12"
           }
@@ -82,7 +82,7 @@
     {
       "imagen": "curacion_media",
       "nombre": "Curacion media",
-      "descripcion": "Milagro superior a Curación. Restablece de forma moderada los PS del lanzador y de quienes se encuentran cerca. Los milagros son el fruto del estudio de los relatos divinos, una bendición recibida de manos de los dioses a través de los actos de oración. La fuerza de un milagro depende de la fe del lanzador.",
+      "descripcion": "Milagro superior a Curación. \nRestablece de forma moderada los PS del lanzador y de quienes se encuentran cerca. \n\nLos milagros son el fruto del estudio de los relatos divinos, una bendición recibida de manos de los dioses a través de los actos de oración. \nLa fuerza de un milagro depende de la fe del lanzador.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim por 3,500 almas después de entregarle el Tomo divino de Carim en braille.",
@@ -95,7 +95,7 @@
     {
       "imagen": "curacion_proyectada",
       "nombre": "Curacion proyectada",
-      "descripcion": "Un milagro descubierto en los últimos días de Lothric. Lanza una luz que cura a quien esté cerca de ella. Incluso aquellos que habían olvidado la caricia y la dadivosidad de la princesa de la Luz Solar se esforzaban por recordar su imagen. Las historias que contaban eran sin duda alguna infantiles, pero también profundamente sinceras.",
+      "descripcion": "Un milagro descubierto en los últimos días de Lothric. Lanza una luz que cura a quien esté cerca de ella. \n\nIncluso aquellos que habían olvidado la caricia y la dadivosidad de la princesa de la Luz Solar se esforzaban por recordar su imagen. \nLas historias que contaban eran sin duda alguna infantiles, pero también profundamente sinceras.",
       "versiones": [
         {
           "ubicacion": "Se encuentra en el montón de residuos. Tras encontrar a Lapp, el amnésico por primera vez, hay que progresar por la zona hasta donde aparecen varios Hombres lúgubres. Al llegar al área por encima del Caballero de la Legión de Harald, hay que girar hacia la derecha y dejarse caer hacia un montón de ceniza justo debajo. El milagro se encuentra en un cadáver, detrás de un Hombre lúgubre.",
@@ -108,7 +108,7 @@
     {
       "imagen": "emitir_fuerza",
       "nombre": "Emitir fuerza",
-      "descripcion": "Milagro tradicional de Catarina. Desata una onda de choque delante. Los habitantes de tierras famosas por la festividad y la bebida suelen ser muy sinceros. Uno puede estar seguro de que no contendrán sus emociones, sino que darán rienda suelta a su ira y además sentimientos con confianza.",
+      "descripcion": "Milagro tradicional de Catarina. \nDesata una onda de choque delante. \n\nLos habitantes de tierras famosas por la festividad y la bebida suelen ser muy sinceros. \n\nUno puede estar seguro de que no contendrán sus emociones, sino que darán rienda suelta a su ira y además sentimientos con confianza.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al agotar el diálogo de Siegward de Catarina en la cocina de la Mansión lejana, en Irithyll del Valle Boreal.",
@@ -121,7 +121,7 @@
     {
       "imagen": "espada_de_la_luna_oscura",
       "nombre": "Espada de la Luna Oscura",
-      "descripcion": "Milagro de aquellos que se consagraron al juramento de la Luna Oscura. Refuerza el arma derecha con luz de Luna Oscura. Los milagros de la Luna Oscura son historias de venganza, pero la capitana Yorshka solo las recita para recordar a su hermano, sin conocer su significado. Puede que sea lo mejor, pues la venganza es mejor dejársela a las Espadas.",
+      "descripcion": "Milagro de aquellos que se consagraron al juramento de la Luna Oscura. \nRefuerza el arma derecha con luz de Luna Oscura. \n\nLos milagros de la Luna Oscura son historias de venganza, pero la capitana Yorshka solo las recita para recordar a su hermano, sin conocer su significado. \n\nPuede que sea lo mejor, pues la venganza es mejor dejársela a las Espadas.",
       "versiones": [
         {
           "ubicacion": "Recompensa por llegar al rango 2 ya sea del juramento Espada de la Luna Oscura o Centinelas Azules.",
@@ -135,7 +135,7 @@
     {
       "imagen": "espada_oscura",
       "nombre": "Espada oscura",
-      "descripcion": "Milagro de la Iglesia Azabache de Londor. Refuerza el arma derecha con oscuridad. Liliane, la tercera hija y una de las fundadoras de la Iglesia Azabache, tiene fama de contar historias que reflejan el sufrimiento y el conflicto de los Huecos.",
+      "descripcion": "Milagro de la Iglesia Azabache de Londor. \n\nRefuerza el arma derecha con oscuridad. \n\nLiliane, la tercera hija y una de las fundadoras de la Iglesia Azabache, tiene fama de contar historias que reflejan el sufrimiento y el conflicto de los Huecos.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim o Karla por 10,000 almas después de entregarle a cualquiera de las dos el Tomo divino de Londor en braille.",
@@ -148,7 +148,7 @@
     {
       "imagen": "espada_relampago",
       "nombre": "Espada relampago",
-      "descripcion": "Milagro supuestamente utilizado por cierto caballero Asesino de dragones durante la Era de los Dioses. Refuerza el arma derecha con electricidad. Las historias de los Asesinos de dragones ahora son inusuales y solo se cuentan fragmentadas y entre susurros en las regiones remotas.",
+      "descripcion": "Milagro supuestamente utilizado por cierto caballero Asesino de dragones durante la Era de los Dioses. \n\nRefuerza el arma derecha con electricidad. \n\nLas historias de los Asesinos de dragones ahora son inusuales y solo se cuentan fragmentadas y entre susurros en las regiones remotas.",
       "versiones": [
         {
           "ubicacion": "Se encuentra en la Mazmorra de Irithyll. Hay que tomar la salida de la izquierda al llegar al piso inferior de la mazmorra patrullada por varios Carceleros, hacia las estatuas que rezan mirando al Pico del Archidragón. Luego hay que encontrar el elevador que conduce hasta los bloques de celdas del nivel superior. Se debe activar el elevador y salirse del mismo en el camino hacia arriba. El milagro se encuentra en un cadáver.",
@@ -161,7 +161,7 @@
     {
       "imagen": "estaca_electrica",
       "nombre": "Estaca electrica",
-      "descripcion": "Un milagro perdido para asesinar dragones. Ataca con una estaca de electricidad. Este relato describe las prácticas perdidas de los antiguos Asesinos de dragones, que descubrieron que para perforar las escamas de un dragón, la electricidad no debía lanzarse en forma de rayo, sino clavarse como una estaca en la piel de la bestia.",
+      "descripcion": "Un milagro perdido para asesinar dragones. \n\nAtaca con una estaca de electricidad. \n\nEste relato describe las prácticas perdidas de los antiguos Asesinos de dragones, que descubrieron que para perforar las escamas de un dragón, la electricidad no debía lanzarse en forma de rayo, sino clavarse como una estaca en la piel de la bestia.",
       "versiones": [
         {
           "ubicacion": "Lo suelta el Gusano de arena de Carthus en el Lago Ardiente.o",
@@ -174,7 +174,7 @@
     {
       "imagen": "expiacion",
       "nombre": "Expiacion",
-      "descripcion": "Milagro entregado a los expulsados de la Iglesia Azabache de Londor. Llama más la atención de los enemigos. Esta es la única historia conocida de los exiliados, que creen que porta palabras de perdón. Hasta los viajes malditos, antes o después, tienen su final.",
+      "descripcion": "Milagro entregado a los expulsados de la Iglesia Azabache de Londor. \n\nLlama más la atención de los enemigos. \n\nEsta es la única historia conocida de los exiliados, que creen que porta palabras de perdón. Hasta los viajes malditos, antes o después, tienen su final.",
       "versiones": [
         {
           "ubicacion": "Se encuentra en el Torreón de Farron. Desde la hoguera Perímetro de Torreón de Farron, hay que voltear y seguir en la dirección contraria, encontrar un hueco en la pared de la derecha y caer hasta encontrar el cadáver con el milagro.",
@@ -187,13 +187,13 @@
     {
       "imagen": "flecha_de_electricidad",
       "nombre": "Flecha de electricidad",
-      "descripcion": "Las pocas mujeres que servían entre los caballeros de la era de los dioses usaban este milagro para matar dragones. Usa el arco de electricidad para disparar una flecha de electricidad. Las flechas de electricidad ofrecen un mayor alcance que las lanzas, y se dice que se usaban para perforar los ojos de los dragones desde lejos. Pero recuerda que las historias hermosas siempre están adornadas.",
+      "descripcion": "Las pocas mujeres que servían entre los caballeros de la era de los dioses usaban este milagro para matar dragones. \n\nUsa el arco de electricidad para disparar una flecha de electricidad. \n\nLas flechas de electricidad ofrecen un mayor alcance que las lanzas, y se dice que se usaban para perforar los ojos de los dragones desde lejos. Pero recuerda que las historias hermosas siempre están adornadas.",
       "versiones": [
         {
-          "ubicacion": "Se encuentra en La Ciudad Anillada, después de la hoguera Tumba compartida. En el edificio con acceso directo a la hoguera Muro interior anillado, en la habitación inferior, hay que golpear la pared junto a las escaleras para revelar un muro ilusorio que contiene un clérigo renqueante. Pasado el clérigo hay dos muros ilusorios, más allá de los cuales se puede encontrar este milagro.",
+          "ubicacion": "Se encuentra en La Ciudad Anillada, después de la hoguera Tumba compartida. \n\nEn el edificio con acceso directo a la hoguera Muro interior anillado, en la habitación inferior, hay que golpear la pared junto a las escaleras para revelar un muro ilusorio que contiene un clérigo renqueante. Pasado el clérigo hay dos muros ilusorios, más allá de los cuales se puede encontrar este milagro.",
           "otros_detalles": {
             "requerimientos": "Fe 35",
-            "efecto": "Prepara una flecha de electricidad para ser lanzada. La flecha se disparará cuando se suelte el botón de conjuro. Produce daño moderado y es ligeramente más rápido que los milagros basados en las Lanzas relámpago."
+            "efecto": "Prepara una flecha de electricidad para ser lanzada. \nLa flecha se disparará cuando se suelte el botón de conjuro. \nProduce daño moderado y es ligeramente más rápido que los milagros basados en las Lanzas relámpago."
           }
         }
       ]
@@ -201,10 +201,10 @@
     {
       "imagen": "fuerza",
       "nombre": "Fuerza",
-      "descripcion": "Milagro elemental para clérigos. Crea una onda de choque. Aunque no inflige daños directamente, este milagro empuja al enemigo hacia atrás y hace que se tambalee. También defiende de las flechas.",
+      "descripcion": "Milagro elemental para clérigos. \nCrea una onda de choque. \n\nAunque no inflige daños directamente, este milagro empuja al enemigo hacia atrás y hace que se tambalee. También defiende de las flechas.",
       "versiones": [
         {
-          "ubicacion": "Equipo inicial de la Clase Clérigo. | Lo vende Irina de Carim por 1,000 almas después de entregarle el Tomo divino de Carim en braille.",
+          "ubicacion": "\n• Equipo inicial de la Clase Clérigo. \n\n• Lo vende Irina de Carim por 1,000 almas después de entregarle el Tomo divino de Carim en braille.",
           "otros_detalles": {
             "requerimientos": "Fe 12"
           }
@@ -214,10 +214,10 @@
     {
       "imagen": "gran_barrera_magica",
       "nombre": "Gran barrera magica",
-      "descripcion": "El relato que más adelante fue interpretado como Barrera mágica. Aumenta en gran medida la absorción de daño mágico al cubrir el cuerpo con una capa protectora blanca. Dicen que es la historia de Havel la Roca, archienemigo de Seath el Descamado. Havel despreciaba la magia y nunca se cansó de buscar métodos que le permitieran contrarrestarla.",
+      "descripcion": "El relato que más adelante fue interpretado como Barrera mágica. \n\nAumenta en gran medida la absorción de daño mágico al cubrir el cuerpo con una capa protectora blanca. \n\nDicen que es la historia de Havel la Roca, archienemigo de Seath el Descamado. \nHavel despreciaba la magia y nunca se cansó de buscar métodos que le permitieran contrarrestarla.",
       "versiones": [
         {
-          "ubicacion": "Se encuentra en el Pico del Archidragón. Desde el techo en el que se encuentra Havel, se debe ubicar una parte desmoronada del muro bien hacia la izquierda. Hay que dejarse caer y luego seguir por el camino hasta encontrar un Lagarto de roca que custodia el milagro.",
+          "ubicacion": "Se encuentra en el Pico del Archidragón. \nDesde el techo en el que se encuentra Havel, se debe ubicar una parte desmoronada del muro bien hacia la izquierda. Hay que dejarse caer y luego seguir por el camino hasta encontrar un Lagarto de roca que custodia el milagro.",
           "otros_detalles": {
             "requerimientos": "Fe 25"
           }
@@ -227,7 +227,7 @@
     {
       "imagen": "gran_curacion",
       "nombre": "Gran curacion",
-      "descripcion": "Milagro glorioso usado por clérigos de alto rango. Restablece una gran cantidad de PS del lanzador y de quienes se encuentran cerca. Solo unos pocos elegidos han aprendido a recitar este romance épico en su totalidad, pero aquellos que lo hacen son ampliamente recompensados.",
+      "descripcion": "Milagro glorioso usado por clérigos de alto rango. \nRestablece una gran cantidad de PS del lanzador y de quienes se encuentran cerca. \n\nSolo unos pocos elegidos han aprendido a recitar este romance épico en su totalidad, pero aquellos que lo hacen son ampliamente recompensados.",
       "versiones": [
         {
           "ubicacion": "Se encuentra en Irithyll del Valle Boreal, en el cadáver de un Hombre larva en la zona del pantano.",
@@ -240,7 +240,7 @@
     {
       "imagen": "gran_lanza_relampago",
       "nombre": "Gran lanza relampago",
-      "descripcion": "Relato primigenio de 'Lanza relámpago', que trata de un Asesino de dragones ancestral. Arroja una lanza de electricidad gigante. Gwyn, el Primer Señor, mataba dragones con su lanza de luz solar, una tradición mantenida por su primogénito y la gran lanza que blandía. Gran parte de este relato épico sobre un padre y un hijo no se ha narrado jamás.",
+      "descripcion": "Relato primigenio de 'Lanza relámpago', que trata de un Asesino de dragones ancestral. \nArroja una lanza de electricidad gigante. \n\nGwyn, el Primer Señor, mataba dragones con su lanza de luz solar, una tradición mantenida por su primogénito y la gran lanza que blandía. \n\nGran parte de este relato épico sobre un padre y un hijo no se ha narrado jamás.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al alcanzar el rango +2 en el juramento Guerrero de la Luz Solar.",
@@ -253,7 +253,7 @@
     {
       "imagen": "guadaña_cazavidas",
       "nombre": "Guadaña cazavidas",
-      "descripcion": "Milagro de Aldrich, el Devoradioses. Roba PS a los enemigos con una guadaña ilusoria. Aldrich soñaba mientras devoraba lentamente al Dios de la Luna Oscura. En este sueño, percibió la forma de una pálida muchacha que se escondía.",
+      "descripcion": "Milagro de Aldrich, el Devoradioses. \n\nRoba PS a los enemigos con una guadaña ilusoria. \n\nAldrich soñaba mientras devoraba lentamente al Dios de la Luna Oscura. En este sueño, percibió la forma de una pálida muchacha que se escondía.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al transponer el Alma de Aldrich con Ludleth de Courland.",
@@ -266,10 +266,10 @@
     {
       "imagen": "ira_de_los_dioses",
       "nombre": "Ira de los dioses",
-      "descripcion": "Forma primigenia de Fuerza. Crea una onda de choque poderosa. Ira de los dioses es una historia épica, mientras que Fuerza es una versión incompleta de ese relato. Este relato primigenio sobre una furia profunda emite una onda de choque que también inflige daño.",
+      "descripcion": "Forma primigenia de Fuerza. Crea una onda de choque poderosa. \n\nIra de los dioses es una historia épica, mientras que Fuerza es una versión incompleta de ese relato. \n\nEste relato primigenio sobre una furia profunda emite una onda de choque que también inflige daño.",
       "versiones": [
         {
-          "ubicacion": "Se encuentra en la Capital Profanada, dentro de la edificación en la que se encuentran las Monstruosidades del Pecado. Debido a que el milagro se encuentra sobre una especie de plataforma, hay que caer desde el tejado hacia su ubicación.",
+          "ubicacion": "Se encuentra en la Capital Profanada, dentro de la edificación en la que se encuentran las Monstruosidades del Pecado. \nDebido a que el milagro se encuentra sobre una especie de plataforma, hay que caer desde el tejado hacia su ubicación.",
           "otros_detalles": {
             "requerimientos": "Fe 30"
           }
@@ -279,7 +279,7 @@
     {
       "imagen": "juramento_sagrado",
       "nombre": "Juramento sagrado",
-      "descripcion": "Milagro de los elegidos por el juramento de la Luz Solar. Aumenta temporalmente el ataque y la absorción de daños del lanzador y de quienes se encuentran cerca. Esta es la historia del Primogénito del Sol, su fiel primer caballero y el valeroso Asesino de dragones que los sirvió a ambos.",
+      "descripcion": "Milagro de los elegidos por el juramento de la Luz Solar. \n\nAumenta temporalmente el ataque y la absorción de daños del lanzador y de quienes se encuentran cerca. \n\nEsta es la historia del Primogénito del Sol, su fiel primer caballero y el valeroso Asesino de dragones que los sirvió a ambos.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al alcanzar el rango +1 en el juramento Guerrero de la Luz Solar.",
@@ -292,7 +292,7 @@
     {
       "imagen": "lanza_de_luz_solar",
       "nombre": "Lanza de luz solar",
-      "descripcion": "Milagro de Gwyn, el Primer Señor. Arroja una lanza de luz solar. Los relatos sobre las cacerías de archidragones de Gwyn escriben el inicio de la Era del Fuego.",
+      "descripcion": "Milagro de Gwyn, el Primer Señor. Arroja una lanza de luz solar. \n\nLos relatos sobre las cacerías de archidragones de Gwyn escriben el inicio de la Era del Fuego.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al transponer el Alma de los Señores con Ludleth de Courland.",
@@ -305,7 +305,7 @@
     {
       "imagen": "lanza_relampago",
       "nombre": "Lanza relampago",
-      "descripcion": "Milagro supuestamente utilizado por los Guerreros de la Luz Solar. Arroja una lanza de electricidad. La lanza inflige daño de electricidad, que sirve para neutralizar la magia y el fuego de manera efectiva. Es especialmente poderoso contra armaduras de metal y dragones.",
+      "descripcion": "Milagro supuestamente utilizado por los Guerreros de la Luz Solar. \n\nArroja una lanza de electricidad. \n\nLa lanza inflige daño de electricidad, que sirve para neutralizar la magia y el fuego de manera efectiva. Es especialmente poderoso contra armaduras de metal y dragones.",
       "versiones": [
         {
           "ubicacion": "Se encuentra en el Torreón de Farron, en el lado opuesto del puente en el que se encuentra el Demonio salvaje, cerca del cadáver de un wyvern.",
@@ -318,7 +318,7 @@
     {
       "imagen": "luz_dadivosa",
       "nombre": "Luz dadivosa",
-      "descripcion": "Milagro enseñado a los caballeros por Gertrude, doncella de la reina. Restablece una gran cantidad de PS de forma gradual. Se dice que la hija celestial es hija de la reina.",
+      "descripcion": "Milagro enseñado a los caballeros por Gertrude, doncella de la reina. \n\nRestablece una gran cantidad de PS de forma gradual. \n\nSe dice que la hija celestial es hija de la reina.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim por 5,000 almas después de entregarle el Tomo divino de Lothric en braille.",
@@ -331,7 +331,7 @@
     {
       "imagen": "luz_solar_dadivosa",
       "nombre": "Luz solar dadivosa",
-      "descripcion": "Milagro especial otorgado a las doncellas de la Princesa de la Luz Solar. Restablece gradualmente una gran cantidad de PS del lanzador y de quienes se encuentran cerca. Los milagros de Gwynevere, amada tanto como madre y como esposa, conceden su bendición a muchos grandes guerreros.",
+      "descripcion": "Milagro especial otorgado a las doncellas de la Princesa de la Luz Solar. \n\nRestablece gradualmente una gran cantidad de PS del lanzador y de quienes se encuentran cerca. \n\nLos milagros de Gwynevere, amada tanto como madre y como esposa, conceden su bendición a muchos grandes guerreros.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al transponer el Alma de Rosaria con Ludleth de Courland.",
@@ -344,7 +344,7 @@
     {
       "imagen": "luz_solar_relajante",
       "nombre": "Luz solar relajante",
-      "descripcion": "Milagro especial otorgado a las doncellas de la Princesa de la Luz Solar. Restablece en gran medida los PS del lanzador y de quienes se encuentran cerca. Los milagros de Gwynevere, la princesa querida por todos, conceden su bendición a muchos grandes guerreros.",
+      "descripcion": "Milagro especial otorgado a las doncellas de la Princesa de la Luz Solar. \n\nRestablece en gran medida los PS del lanzador y de quienes se encuentran cerca. \n\nLos milagros de Gwynevere, la princesa querida por todos, conceden su bendición a muchos grandes guerreros.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al transponer el Alma de la Bailarina con Ludleth de Courland.",
@@ -357,7 +357,7 @@
     {
       "imagen": "lagrimas_cariñosas",
       "nombre": "Lagrimas cariñosas",
-      "descripcion": "Milagro enseñado por Morne, el apóstol del arzobispo. Cura hemorragia, veneno y congelación para el lanzador y quienes se encuentren cerca. Lágrimas cariñosas es una historia de las numerosas muertes que rodearon a la diosa Caitha, a quien se sabe que seguía Morne.",
+      "descripcion": "Milagro enseñado por Morne, el apóstol del arzobispo. \n\nCura hemorragia, veneno y congelación para el lanzador y quienes se encuentren cerca. \n\nLágrimas cariñosas es una historia de las numerosas muertes que rodearon a la diosa Caitha, a quien se sabe que seguía Morne.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim por 1,500 almas.",
@@ -370,7 +370,7 @@
     {
       "imagen": "lagrimas_de_negacion",
       "nombre": "Lagrimas de negacion",
-      "descripcion": "Milagro enseñado por Morne, el apóstol del arzobispo. Concede la posibilidad de resistir cuando los PS llegan a 0. Pensado para conceder a los moribundos unos momentos para su último adiós. Las lágrimas se derraman por los vivos, más que por los muertos.",
+      "descripcion": "Milagro enseñado por Morne, el apóstol del arzobispo. \n\nConcede la posibilidad de resistir cuando los PS llegan a 0. \n\nPensado para conceder a los moribundos unos momentos para su último adiós. Las lágrimas se derraman por los vivos, más que por los muertos.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim por 10,000 almas después de entregarle el Tomo divino de Carim en braille.",
@@ -383,7 +383,7 @@
     {
       "imagen": "mordisqueo",
       "nombre": "Mordisqueo",
-      "descripcion": "Milagro oscuro enseñado en la Catedral de la Oscuridad. Invoca a un enjambre de insectos que devora a los enemigos. Estos insectos que acechan en la Oscuridad tienen pequeñas mandíbulas llenas de colmillos que les permiten desgarrar la piel y hundirse en la carne en un abrir y cerrar ojos, provocando intensas hemorragias.",
+      "descripcion": "Milagro oscuro enseñado en la Catedral de la Oscuridad. \n\nInvoca a un enjambre de insectos que devora a los enemigos. \n\nEstos insectos que acechan en la Oscuridad tienen pequeñas mandíbulas llenas de colmillos que les permiten desgarrar la piel y hundirse en la carne en un abrir y cerrar ojos, provocando intensas hemorragias.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim o Karla por 2,000 almas después de entregarle a cualquiera de las dos el Tomo divino de Oscuridad en braille.",
@@ -397,7 +397,7 @@
     {
       "imagen": "mordisqueo_de_dorris",
       "nombre": "Mordisqueo de Dorris",
-      "descripcion": "Milagro de Dorris, la evangelista desquiciada. Invoca a un gran enjambre de insectos que devora a los enemigos. Quienes se demoran demasiado al borde de la Oscuridad suelen resbalar. Dorris gozó ciertamente de esta oscuridad, que la embriagó con sus peligros.",
+      "descripcion": "Milagro de Dorris, la evangelista desquiciada. \n\nInvoca a un gran enjambre de insectos que devora a los enemigos. \n\nQuienes se demoran demasiado al borde de la Oscuridad suelen resbalar. Dorris gozó ciertamente de esta oscuridad, que la embriagó con sus peligros.",
       "versiones": [
         {
           "ubicacion": "Lo suelta una Evangelista en Irithyll del Valle Boreal.",
@@ -410,7 +410,7 @@
     {
       "imagen": "muerto_otra_vez",
       "nombre": "Muerto otra vez",
-      "descripcion": "Milagro sacrílego de la Iglesia Azabache de Londor. Bendice los cadáveres y los transforma en trampas. Londor, el reino de los Huecos, es una sociedad de no muertos formada por cadáveres y sombras de aquellos que llevaron vidas despreciables. ¿Realmente alguien debería plantearse recibir tal bendición?",
+      "descripcion": "Milagro sacrílego de la Iglesia Azabache de Londor. \n\nBendice los cadáveres y los transforma en trampas. \n\nLondor, el reino de los Huecos, es una sociedad de no muertos formada por cadáveres y sombras de aquellos que llevaron vidas despreciables. ¿Realmente alguien debería plantearse recibir tal bendición?",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim o Karla por 5,000 almas después de entregarle a cualquiera de las dos el Tomo divino de Londor en braille.",
@@ -423,10 +423,10 @@
     {
       "imagen": "pilares_divinos_de_luz",
       "nombre": "Pilares divinos de luz",
-      "descripcion": "Milagro de Gertrude, la hija celestial. Erige múltiples pilares de luz en las proximidades. Gertrude, la doncella sagrada de la reina, recibió la visita de un ángel, que le reveló esta historia. A pesar de haber perdido la vista y la voz, decidió dejar el relato por escrito. Ningún hombre corriente puede descifrar sus garabatos fragmentarios ni entender cómo pudieron convertirse en la base de la fe angélica de Lothric.",
+      "descripcion": "Milagro de Gertrude, la hija celestial. \nErige múltiples pilares de luz en las proximidades. \n\nGertrude, la doncella sagrada de la reina, recibió la visita de un ángel, que le reveló esta historia. \n\nA pesar de haber perdido la vista y la voz, decidió dejar el relato por escrito. Ningún hombre corriente puede descifrar sus garabatos fragmentarios ni entender cómo pudieron convertirse en la base de la fe angélica de Lothric.",
       "versiones": [
         {
-          "ubicacion": "Se encuentra en el Gran Archivo, en el cuerpo sin vida de Gertrude que yace dentro de una gran jaula en la parte superior de los archivos. Para alcanzarla hay que entrar en la torre custodiada por tres Caballeros de Gertrude y luego entrar por la escotilla abierta que hay dentro. Hay que abrirse camino a través de las vigas y dejarse caer por la puerta abierta en la parte superior de la jaula.",
+          "ubicacion": "Se encuentra en el Gran Archivo, en el cuerpo sin vida de Gertrude que yace dentro de una gran jaula en la parte superior de los archivos. \nPara alcanzarla hay que entrar en la torre custodiada por tres Caballeros de Gertrude y luego entrar por la escotilla abierta que hay dentro. Hay que abrirse camino a través de las vigas y dejarse caer por la puerta abierta en la parte superior de la jaula.",
           "otros_detalles": {
             "requerimientos": "Fe 30"
           }
@@ -436,7 +436,7 @@
     {
       "imagen": "proteccion_profunda",
       "nombre": "Protección profunda",
-      "descripcion": "Milagro enseñado a los diáconos investidos en la Catedral de la Oscuridad. Potencia ligeramente el ataque, la absorción de daño y la resistencia; además, aumenta la velocidad de recuperación de energía. La Oscuridad era al principio un lugar pacífico y sagrado, pero se convirtió en el descanso final de muchas cosas abominables. Esta historia de la Oscuridad ofrece protección a quienes rinden culto entre tales horrores.",
+      "descripcion": "Milagro enseñado a los diáconos investidos en la Catedral de la Oscuridad. \n\nPotencia ligeramente el ataque, la absorción de daño y la resistencia; además, aumenta la velocidad de recuperación de energía. \n\nLa Oscuridad era al principio un lugar pacífico y sagrado, pero se convirtió en el descanso final de muchas cosas abominables. Esta historia de la Oscuridad ofrece protección a quienes rinden culto entre tales horrores.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim o Karla por 4,000 almas después de entregarle a cualquiera de las dos el Tomo divino de Oscuridad en braille.",
@@ -449,7 +449,7 @@
     {
       "imagen": "reabastecimiento",
       "nombre": "Reabastecimiento",
-      "descripcion": "Milagro usado antaño por los caballeros clérigos. Restablece los PS de forma gradual. Reabastecimiento es una reliquia de la antigua fe de Lloyd, cuyos caballeros clérigos luchaban sin vacilar.",
+      "descripcion": "Milagro usado antaño por los caballeros clérigos. \nRestablece los PS de forma gradual. \n\nReabastecimiento es una reliquia de la antigua fe de Lloyd, cuyos caballeros clérigos luchaban sin vacilar.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim por 1,000 almas.",
@@ -462,7 +462,7 @@
     {
       "imagen": "rumbo_a_casa",
       "nombre": "Rumbo a casa",
-      "descripcion": "Milagro enseñado a los clérigos que viajan. Lleva al lanzador a la última hoguera en la que descansó o a la hoguera del santuario. Normalmente se vincularía con el hogar de alguien, pero la maldición de los no muertos ha deformado su poder para redirigir al lanzador a una hoguera. Puede que, para los no muertos, la hoguera haga las veces de hogar.",
+      "descripcion": "Milagro enseñado a los clérigos que viajan. \nLleva al lanzador a la última hoguera en la que descansó o a la hoguera del santuario. \n\nNormalmente se vincularía con el hogar de alguien, pero la maldición de los no muertos ha deformado su poder para redirigir al lanzador a una hoguera. Puede que, para los no muertos, la hoguera haga las veces de hogar.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim por 3,000 almas.",
@@ -475,7 +475,7 @@
     {
       "imagen": "tormenta_electrica",
       "nombre": "Tormenta eléctrica",
-      "descripcion": "Milagro del Rey Sin Nombre, aliado de los antiguos dragones. Provoca la caída de furiosos rayos eléctricos. Ese antiguo rey y dios de la guerra, otrora Asesino de dragones, domó a un draco de tormenta sobre el que llevó una vida de batallas. Es probable que este milagro sea una historia de su vínculo.",
+      "descripcion": "Milagro del Rey Sin Nombre, aliado de los antiguos dragones. \n\nProvoca la caída de furiosos rayos eléctricos. \n\nEse antiguo rey y dios de la guerra, otrora Asesino de dragones, domó a un draco de tormenta sobre el que llevó una vida de batallas. Es probable que este milagro sea una historia de su vínculo.",
       "versiones": [
         {
           "ubicacion": "Se obtiene al transponer el Alma del Rey Sin Nombre con Ludleth de Courland.",
@@ -488,7 +488,7 @@
     {
       "imagen": "voto_de_silencio",
       "nombre": "Voto de silencio",
-      "descripcion": "Milagro de la Iglesia Azabache de Londor. Impide usar conjuros en las proximidades, incluidos los propios. Los miembros de la Iglesia Azabache son espadachines entrenados, fieles solo a sus armas, que soportan el pesado silencio de Londor.",
+      "descripcion": "Milagro de la Iglesia Azabache de Londor. \n\nImpide usar conjuros en las proximidades, incluidos los propios. \n\nLos miembros de la Iglesia Azabache son espadachines entrenados, fieles solo a sus armas, que soportan el pesado silencio de Londor.",
       "versiones": [
         {
           "ubicacion": "Lo vende Irina de Carim o Karla por 15,000 almas después de entregarle a cualquiera de las dos el Tomo divino de Londor en braille.",

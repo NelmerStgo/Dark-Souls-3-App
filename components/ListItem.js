@@ -3,9 +3,10 @@ import {
     View,
     Text,
     StyleSheet,
-    Image,
     Pressable
 } from 'react-native';
+
+import { Image } from 'expo-image';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { colores } from '../theme/colores';
 
@@ -79,7 +80,7 @@ const ListItem = ({ item, onPress, mostrarVersiones = true, categoryId }) => {
                         <Image
                             source={imageSource}
                             style={styles.image}
-                            resizeMode="cover"
+                            contentFit="cover"
                         />
                     ) : (
                         <View style={styles.placeholder}>

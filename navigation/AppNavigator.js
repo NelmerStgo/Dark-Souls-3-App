@@ -57,6 +57,9 @@ const AppNavigator = () => {
                     <Stack.Screen
                         name="Acerca de"
                         component={AcercaDeScreen}
+                        options={() => ({
+                            headerShown: false,
+                        })}
                     />
                 </Stack.Navigator>
             </NavigationContainer>
