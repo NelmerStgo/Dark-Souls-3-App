@@ -3,7 +3,7 @@
     {
       "imagen": "acurrucarse",
       "nombre": "Acurrucarse",
-      "descripcion": "",
+  "descripcion": "Refugio en la soledad, buscando calor en un mundo frío y desolado.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -16,7 +16,7 @@
     {
       "imagen": "alegrarse",
       "nombre": "Alegrarse",
-      "descripcion": "",
+  "descripcion": "Una efímera muestra de júbilo en tierras marcadas por la desesperanza.",
       "versiones": [
         {
           "ubicacion": "Catedral de la Oscuridad",
@@ -29,7 +29,7 @@
     {
       "imagen": "alegría",
       "nombre": "Alegría",
-      "descripcion": "",
+  "descripcion": "Una efímera muestra de júbilo en tierras marcadas por la desesperanza.",
       "versiones": [
         {
           "ubicacion": "",
@@ -42,7 +42,7 @@
     {
       "imagen": "alabar_al_sol",
       "nombre": "Alabar al Sol",
-      "descripcion": "",
+  "descripcion": "Un gesto legendario, símbolo de esperanza y devoción a la luz solar. ¡Alaba al Sol!",
       "versiones": [
         {
           "ubicacion": "Castillo de Lothric",
@@ -55,7 +55,7 @@
     {
       "imagen": "aliado_silencioso",
       "nombre": "Aliado silencioso",
-      "descripcion": "",
+  "descripcion": "Presencia discreta, pero vital en la batalla.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -68,7 +68,7 @@
     {
       "imagen": "aplauso",
       "nombre": "Aplauso",
-      "descripcion": "Breve descripción de la expresión",
+      "descripcion": "Reconocimiento silencioso a los logros de los no muertos",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -81,7 +81,7 @@
     {
       "imagen": "apuntar_abajo",
       "nombre": "Apuntar abajo",
-      "descripcion": "",
+  "descripcion": "Una señal simple, pero cargada de intención en el campo de batalla.",
       "versiones": [
         {
           "ubicacion": "",
@@ -94,7 +94,7 @@
     {
       "imagen": "apuntar_hacia_delante",
       "nombre": "Apuntar hacia delante",
-      "descripcion": "",
+  "descripcion": "Una señal simple, pero cargada de intención en el campo de batalla.",
       "versiones": [
         {
           "ubicacion": "",
@@ -107,7 +107,7 @@
     {
       "imagen": "apuntar_arriba",
       "nombre": "Apuntar arriba",
-      "descripcion": "",
+  "descripcion": "Una señal simple, pero cargada de intención en el campo de batalla.",
       "versiones": [
         {
           "ubicacion": "",
@@ -120,7 +120,7 @@
     {
       "imagen": "bienvenida",
       "nombre": "Bienvenida",
-      "descripcion": "",
+  "descripcion": "Un gesto de cortesía entre almas errantes.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -133,7 +133,7 @@
     {
       "imagen": "brindar",
       "nombre": "Brindar",
-      "descripcion": "",
+  "descripcion": "Celebración de la victoria, aunque sea breve, en la interminable noche.",
       "versiones": [
         {
           "ubicacion": "Asentamiento de no muertos | Catedral de la Oscuridad",
@@ -146,7 +146,7 @@
     {
       "imagen": "camino_del_dragón",
       "nombre": "Camino del dragón",
-      "descripcion": "",
+  "descripcion": "Imitación de los dragones eternos, buscando trascender la humanidad.",
       "versiones": [
         {
           "ubicacion": "Jardín del Rey Consumido",
@@ -160,7 +160,7 @@
     {
       "imagen": "derrumbarse",
       "nombre": "Derrumbarse",
-      "descripcion": "",
+  "descripcion": "El peso de la maldición obliga a buscar descanso, aunque la paz sea esquiva.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -173,7 +173,7 @@
     {
       "imagen": "descansar",
       "nombre": "Descansar",
-      "descripcion": "",
+  "descripcion": "El peso de la maldición obliga a buscar descanso, aunque la paz sea esquiva.",
       "versiones": [
         {
           "ubicacion": "Cementerio de Ceniza",
@@ -186,7 +186,7 @@
     {
       "imagen": "determinación_silenciosa",
       "nombre": "Determinación silenciosa",
-      "descripcion": "",
+  "descripcion": "Firmeza inquebrantable ante la adversidad.",
       "versiones": [
         {
           "ubicacion": "Irithyll del Valle Boreal",
@@ -199,7 +199,7 @@
     {
       "imagen": "dormir",
       "nombre": "Dormir",
-      "descripcion": "",
+  "descripcion": "El peso de la maldición obliga a buscar descanso, aunque la paz sea esquiva.",
       "versiones": [
         {
           "ubicacion": "Asentamiento de no muertos | Irithyll del Valle Boreal",
@@ -212,7 +212,7 @@
     {
       "imagen": "duelo",
       "nombre": "Duelo",
-      "descripcion": "",
+  "descripcion": "Invocación al combate honorable, donde solo uno quedará en pie.",
       "versiones": [
         {
           "ubicacion": "Torreón de Farron | Irithyll del Valle Boreal",
@@ -225,7 +225,7 @@
     {
       "imagen": "en_cuclillas",
       "nombre": "En cuclillas",
-      "descripcion": "",
+  "descripcion": "Paciencia y humildad ante los desafíos del abismo.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -238,7 +238,7 @@
     {
       "imagen": "etiqueta_de_la_legión",
       "nombre": "Etiqueta de la legión",
-      "descripcion": "",
+  "descripcion": "Orgullo y pertenencia a una hermandad de guerreros caídos.",
       "versiones": [
         {
           "ubicacion": "Torreón de Farron",
@@ -251,7 +251,7 @@
     {
       "imagen": "gracias",
       "nombre": "Gracias",
-      "descripcion": "",
+  "descripcion": "Agradecimiento sincero, poco común en un mundo de traiciones.",
       "versiones": [
         {
           "ubicacion": "Catacumbas de Carthus | Lago Ardiente",
@@ -264,7 +264,7 @@
     {
       "imagen": "hacer_reverencia",
       "nombre": "Hacer reverencia",
-      "descripcion": "",
+  "descripcion": "Respeto hacia aliados y enemigos, pues todos comparten el mismo destino.",
       "versiones": [
         {
           "ubicacion": "Gesto inicial.",
@@ -277,7 +277,7 @@
     {
       "imagen": "hacer_señas",
       "nombre": "Hacer señas",
-      "descripcion": "",
+  "descripcion": "Comunicación silenciosa entre los que no pueden confiar en las palabras.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -290,7 +290,7 @@
     {
       "imagen": "hurrah",
       "nombre": "Hurrah",
-      "descripcion": "",
+  "descripcion": "Un grito de valor que desafía la oscuridad.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -303,7 +303,7 @@
     {
       "imagen": "llamar",
       "nombre": "Llamar",
-      "descripcion": "",
+  "descripcion": "Petición de ayuda a fuerzas más allá de la comprensión humana.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -316,7 +316,7 @@
     {
       "imagen": "lealtad_luna_oscura",
       "nombre": "Lealtad Luna Oscura",
-      "descripcion": "",
+  "descripcion": "Juramento a la luna oscura, guardiana de los secretos prohibidos.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -330,7 +330,7 @@
     {
       "imagen": "oración",
       "nombre": "Oración",
-      "descripcion": "",
+  "descripcion": "Súplica a los dioses, aunque hace tiempo que dejaron de escuchar.",
       "versiones": [
         {
           "ubicacion": "Asentamiento de no muertos",
@@ -343,7 +343,7 @@
     {
       "imagen": "por_mi_espada",
       "nombre": "Por mi espada",
-      "descripcion": "",
+  "descripcion": "Promesa de luchar hasta el último aliento.",
       "versiones": [
         {
           "ubicacion": "Torreón de Farron | Irithyll del Valle Boreal",
@@ -356,7 +356,7 @@
     {
       "imagen": "postración",
       "nombre": "Postración",
-      "descripcion": "",
+  "descripcion": "Sumisión total, ya sea por respeto o desesperación.",
       "versiones": [
         {
           "ubicacion": "Catedral de la Oscuridad | Santuario de Enlace",
@@ -369,7 +369,7 @@
     {
       "imagen": "reverencia",
       "nombre": "Reverencia",
-      "descripcion": "",
+  "descripcion": "Respeto hacia aliados y enemigos, pues todos comparten el mismo destino.",
       "versiones": [
         {
           "ubicacion": "Torreón de Farron",
@@ -382,7 +382,7 @@
     {
       "imagen": "reverencia_digna",
       "nombre": "Reverencia digna",
-      "descripcion": "",
+  "descripcion": "Respeto hacia aliados y enemigos, pues todos comparten el mismo destino.",
       "versiones": [
         {
           "ubicacion": "Santuario de Enlace",
@@ -395,7 +395,7 @@
     {
       "imagen": "saltar_de_alegría",
       "nombre": "Saltar de alegría",
-      "descripcion": "",
+  "descripcion": "Una efímera muestra de júbilo en tierras marcadas por la desesperanza.",
       "versiones": [
         {
           "ubicacion": "",
@@ -408,7 +408,7 @@
     {
       "imagen": "saludo",
       "nombre": "Saludo",
-      "descripcion": "",
+  "descripcion": "Un gesto de cortesía entre almas errantes.",
       "versiones": [
         {
           "ubicacion": "",
@@ -421,7 +421,7 @@
     {
       "imagen": "estirar",
       "nombre": "Estirar",
-      "descripcion": "",
+  "descripcion": "Preparación del cuerpo y el alma para los desafíos venideros.",
       "versiones": [
         {
           "ubicacion": "Capital Profanada",

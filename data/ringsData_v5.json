@@ -2,7 +2,7 @@
     "anillos": [
         {
             "imagen": "Anillo_de_Rubí_de_Aldrich",
-            "nombre": "Rubí de Aldrich",
+            "nombre": "Rubi de Aldrich",
             "descripcion": "Anillo deforme dejado por Aldrich, Santo de la Oscuridad.",
             "versiones": [
                 {
@@ -47,7 +47,7 @@
         },
         {
             "imagen": "Anillo_de_dragón_rugiente",
-            "nombre": "Anillo de dragón rugiente",
+            "nombre": "Anillo de dragon rugiente",
             "descripcion": "Anillo especial otorgado a aquellos que son dignos de emprender el camino del descubrimiento en Vinheim, hogar de la hechicería.",
             "versiones": [
                 {
@@ -84,8 +84,8 @@
             ]
         },
         {
-            "imagen": "Anillo_de_lágrima_de_piedra_azul",
-            "nombre": "Anillo de lágrima de piedra azul",
+            "imagen": "Anillo_de_lagrima_de_piedra_azul",
+            "nombre": "Anillo de lagrima de piedra azul",
             "descripcion": "Anillo con una rara piedra de lágrima engarzada. Aumenta temporalmente la absorción de daño con PS bajos.",
             "versiones": [
                 {
@@ -353,7 +353,7 @@
         },
         {
             "imagen": "Anillo_de_escama_de_dragón",
-            "nombre": "Anillo de escama de dragón",
+            "nombre": "Anillo de escama de dragon",
             "descripcion": "Anillo de Oceiros, antiguo rey de Lothric. Reduce el daño recibido de los ataques por la espalda.",
             "versiones": [
                 {
@@ -551,7 +551,7 @@
         },
         {
             "imagen": "Anillo_del_halcón",
-            "nombre": "Anillo del halcón",
+            "nombre": "Anillo del halcon",
             "descripcion": "Anillo asociado con Gough, el Ojo de Halcón, uno de los Cuatro Caballeros de Gwyn, el Primer Señor.",
             "versiones": [
                 {
@@ -641,7 +641,7 @@
         },
         {
             "imagen": "Anillo_del_león",
-            "nombre": "Anillo del león",
+            "nombre": "Anillo del leon",
             "descripcion": "Anillo asociado a Ornstein, el Asesino de dragones, uno de los Cuatro Caballeros de Gwyn, el Primer Señor.",
             "versiones": [
                 {
@@ -695,7 +695,7 @@
         },
         {
             "imagen": "Anillo_de_agarre_eléctrico",
-            "nombre": "Anillo de agarre eléctrico",
+            "nombre": "Anillo de agarre electrico",
             "descripcion": "Anillo de agarre eléctrico",
             "versiones": [
                 {
@@ -710,7 +710,7 @@
         },
         {
             "imagen": "Anillo_de_emblema_de_dragón_eterno",
-            "nombre": "Anillo de emblema de dragón eterno",
+            "nombre": "Anillo de emblema de dragon eterno",
             "descripcion": "Un anillo especial otorgado a aquellos que son dignos de emprender el camino del descubrimiento de Vinheim, hogar de la hechicería.",
             "versiones": [
                 {
@@ -771,7 +771,7 @@
         },
         {
             "imagen": "Anillo_de_agarre_mágico",
-            "nombre": "Anillo de agarre mágico",
+            "nombre": "Anillo de agarre magico",
             "descripcion": "Anillo que representa una mano que sujeta una piedra azul.",
             "versiones": [
                 {
@@ -786,7 +786,7 @@
         },
         {
             "imagen": "Anillo_de_placa_de_piedra_mágica",
-            "nombre": "Anillo de placa de piedra mágica",
+            "nombre": "Anillo de placa de piedra magica",
             "descripcion": "Las placas de piedra son el símbolo de los auténticos caballeros, y las placas de piedra azles se conceden a los guardias del palacio real.",
             "versiones": [
                 {
@@ -870,7 +870,7 @@
         },
         {
             "imagen": "Anillo_de_Ojo_izquierdo_del_Pontífice",
-            "nombre": "Ojo izquierdo del Pontífice",
+            "nombre": "Ojo izquierdo del Pontifice",
             "descripcion": "Anillo embrujado que el Pontífice Sulyvahn entregó a sus caballeros.",
             "versiones": [
                 {
@@ -885,7 +885,7 @@
         },
         {
             "imagen": "Anillo_de_Ojo_derecho_del_Pontífice",
-            "nombre": "Ojo derecho del Pontífice",
+            "nombre": "Ojo derecho del Pontifice",
             "descripcion": "Anillo embrujado que el Pontífice Sulyvahn entregó a sus caballeros.",
             "versiones": [
                 {
@@ -900,7 +900,7 @@
         },
         {
             "imagen": "Anillo_de_oración",
-            "nombre": "Anillo de oración",
+            "nombre": "Anillo de oracion",
             "descripcion": "Un anillo grabado con el retrato de la Suma Sacerdotisa.",
             "versiones": [
                 {
@@ -914,8 +914,8 @@
             ]
         },
         {
-            "imagen": "Anillo_de_lágrima_de_piedra_roja",
-            "nombre": "Anillo de lágrima de piedra roja",
+            "imagen": "Anillo_de_lagrima_de_piedra_roja",
+            "nombre": "Anillo de lagrima de piedra roja",
             "descripcion": "Un anillo con una rara piedra de lágrima engarzada.",
             "versiones": [
                 {
@@ -945,7 +945,7 @@
         },
         {
             "imagen": "Anillo_de_inversión",
-            "nombre": "Anillo de inversión",
+            "nombre": "Anillo de inversion",
             "descripcion": "Anillo divino otorgado a Gwyndolin, la Luna Oscura, en su juventud.",
             "versiones": [
                 {
@@ -1006,7 +1006,7 @@
         },
         {
             "imagen": "Anillo_de_protección_de_acero",
-            "nombre": "Anillo de protección de acero",
+            "nombre": "Anillo de proteccion de acero",
             "descripcion": "Anillo del legendario Rey Caballero.",
             "versiones": [
                 {
@@ -1190,7 +1190,7 @@
         },
         {
             "imagen": "Anillo_de_emblema_de_dragón_dormido",
-            "nombre": "Anillo de emblema de dragón dormido",
+            "nombre": "Anillo de emblema de dragon dormido",
             "descripcion": "Anillo de un gremio clandestino de hechiceros asentado en Vinheim, hogar de la hechicería.",
             "versiones": [
                 {
@@ -1389,7 +1389,7 @@
         },
         {
             "imagen": "Anillo_de_dragón_joven",
-            "nombre": "Anillo de dragón joven",
+            "nombre": "Anillo de dragon joven",
             "descripcion": "Anillo concedido en Vinheim, hogar de la hechicería, al ser nombrado hechicero.",
             "versiones": [
                 {
