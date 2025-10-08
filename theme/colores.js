@@ -1,7 +1,7 @@
 // Archivo central de colores (tokens semánticos)
 // Usa nombres descriptivos para que cambiar el estilo sea sencillo.
 export const colores = {
-    fondoBase: '#0D0D0D',
+    fondoBase: '#000000',
     fondoPanel: '#121212',
     fondoPanelAlt: '#1A1A1A',
     fondoResaltado: '#181613',

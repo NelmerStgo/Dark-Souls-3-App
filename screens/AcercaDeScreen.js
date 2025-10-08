@@ -12,6 +12,7 @@ import {
 } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { colores } from '../theme/colores';
 
 const GOLD = '#C9A46C';
 const GOLD_SOFT = '#E3C890';
@@ -200,7 +201,7 @@ const AboutScreen = () => {
 const styles = StyleSheet.create({
     safe: {
         flex: 1,
-        backgroundColor: ASH_BG
+        backgroundColor: colores.fondoBase
     },
     container: {
         flex: 1,
@@ -212,7 +213,7 @@ const styles = StyleSheet.create({
     },
 
     appTitle: {
-        fontFamily: 'DarkSouls_Font',
+        fontFamily: 'OptimusPrinceps',
         fontSize: 30,
         textAlign: 'center',
         color: GOLD,

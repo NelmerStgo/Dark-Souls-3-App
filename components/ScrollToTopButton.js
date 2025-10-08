@@ -67,7 +67,7 @@ const ScrollToTopButton = ({ visible, onPress }) => {
         ],
         shadowOpacity: pulseAnim.interpolate({
             inputRange: [1, 1.05],
-            outputRange: [0.4, 0.7], // La sombra se hace más intensa
+            outputRange: [1, 1.05], // La sombra se hace más intensa
         }),
     };
 

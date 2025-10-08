@@ -2,6 +2,7 @@ import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { StatusBar } from "expo-status-bar";
 
 import HomeScreen from '../screens/HomeScreen';
 import ItemListScreen from '../screens/ItemListScreen';
@@ -14,6 +15,8 @@ const AppNavigator = () => {
     return (
         <SafeAreaProvider>
             <NavigationContainer>
+                <StatusBar style="light" backgroundColor="#000000" />
+
                 <Stack.Navigator
                     initialRouteName="Home"
                     screenOptions={{
