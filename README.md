@@ -5,10 +5,6 @@
 ![Banner de Ashen Codex](assets/screenshots/ds_banner.webp)
 **Ashen Codex** es una aplicación móvil, no oficial, desarrollada por un fan y para fans de la saga Souls. Su objetivo es servir como una guía y herramienta de seguimiento para ayudar a los jugadores de Dark Souls 3 a encontrar todos los objetos coleccionables del juego, desde anillos y gestos hasta hechizos y piromancias.
 
-<p align="center">
-  <img src="./assets/icon.png" alt="Logo" width="250"/>
-</p>
-
 ---
 
 ## Características Principales
