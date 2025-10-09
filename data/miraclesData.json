@@ -29,7 +29,7 @@
     },
     {
       "imagen": "ayuda_de_curacion",
-      "nombre": "Ayuda de curacion",
+      "nombre": "Ayuda de curación",
       "descripcion": "Milagro ofrecido por caridad a gente de poca fe. Una muestra de tolerancia de la Blanca Vía. \n\nRestablece ligeramente los PS. \n\nPara usar milagros, equípate con un talismán o una campana sagrada y aprende un milagro en una hoguera.",
       "versiones": [
         {
@@ -42,7 +42,7 @@
     },
     {
       "imagen": "barrera_magica",
-      "nombre": "Barrera magica",
+      "nombre": "Barrera mágica",
       "descripcion": "Milagro de los clérigos que blanden armas. \n\nAumenta la absorción de daño mágico al cubrir el cuerpo con una capa protectora blanca. \n\nHubo un breve periodo en la historia en el que clérigos y hechiceros estuvieron enfrentados. \nPor eso se hizo necesario que hasta los simples clérigos tuviesen una forma de defenderse de la magia",
       "versiones": [
         {
@@ -55,7 +55,7 @@
     },
     {
       "imagen": "buscar_guia",
-      "nombre": "Buscar guia",
+      "nombre": "Buscar guía",
       "descripcion": "Milagro de almas desviadas. \nMuestra más ayuda de otros mundos y revela señales de invocación sin usar brasas. \n\nLa fe sirve de guía a los clérigos, lo que significa que no necesitan sabiduría de segunda mano. \n\nSea como sea, este milagro ha ido pasando de un alma a otra y proporcionando un pequeño rayo de esperanza a los perdidos.",
       "versiones": [
         {
@@ -68,7 +68,7 @@
     },
     {
       "imagen": "curacion",
-      "nombre": "Curacion",
+      "nombre": "Curación",
       "descripcion": "Milagro elemental que usan los clérigos. \nRestablece los PS del lanzador y de quienes se encuentran cerca. \n\nPara usar milagros, equípate con un talismán o una campana sagrada y aprende un milagro en una hoguera.",
       "versiones": [
         {
@@ -81,7 +81,7 @@
     },
     {
       "imagen": "curacion_media",
-      "nombre": "Curacion media",
+      "nombre": "Curación media",
       "descripcion": "Milagro superior a Curación. \nRestablece de forma moderada los PS del lanzador y de quienes se encuentran cerca. \n\nLos milagros son el fruto del estudio de los relatos divinos, una bendición recibida de manos de los dioses a través de los actos de oración. \nLa fuerza de un milagro depende de la fe del lanzador.",
       "versiones": [
         {
@@ -94,7 +94,7 @@
     },
     {
       "imagen": "curacion_proyectada",
-      "nombre": "Curacion proyectada",
+      "nombre": "Curación proyectada",
       "descripcion": "Un milagro descubierto en los últimos días de Lothric. Lanza una luz que cura a quien esté cerca de ella. \n\nIncluso aquellos que habían olvidado la caricia y la dadivosidad de la princesa de la Luz Solar se esforzaban por recordar su imagen. \nLas historias que contaban eran sin duda alguna infantiles, pero también profundamente sinceras.",
       "versiones": [
         {
@@ -147,7 +147,7 @@
     },
     {
       "imagen": "espada_relampago",
-      "nombre": "Espada relampago",
+      "nombre": "Espada relámpago",
       "descripcion": "Milagro supuestamente utilizado por cierto caballero Asesino de dragones durante la Era de los Dioses. \n\nRefuerza el arma derecha con electricidad. \n\nLas historias de los Asesinos de dragones ahora son inusuales y solo se cuentan fragmentadas y entre susurros en las regiones remotas.",
       "versiones": [
         {
@@ -160,7 +160,7 @@
     },
     {
       "imagen": "estaca_electrica",
-      "nombre": "Estaca electrica",
+      "nombre": "Estaca eléctrica",
       "descripcion": "Un milagro perdido para asesinar dragones. \n\nAtaca con una estaca de electricidad. \n\nEste relato describe las prácticas perdidas de los antiguos Asesinos de dragones, que descubrieron que para perforar las escamas de un dragón, la electricidad no debía lanzarse en forma de rayo, sino clavarse como una estaca en la piel de la bestia.",
       "versiones": [
         {
@@ -173,7 +173,7 @@
     },
     {
       "imagen": "expiacion",
-      "nombre": "Expiacion",
+      "nombre": "Expiación",
       "descripcion": "Milagro entregado a los expulsados de la Iglesia Azabache de Londor. \n\nLlama más la atención de los enemigos. \n\nEsta es la única historia conocida de los exiliados, que creen que porta palabras de perdón. Hasta los viajes malditos, antes o después, tienen su final.",
       "versiones": [
         {
@@ -213,7 +213,7 @@
     },
     {
       "imagen": "gran_barrera_magica",
-      "nombre": "Gran barrera magica",
+      "nombre": "Gran barrera mágica",
       "descripcion": "El relato que más adelante fue interpretado como Barrera mágica. \n\nAumenta en gran medida la absorción de daño mágico al cubrir el cuerpo con una capa protectora blanca. \n\nDicen que es la historia de Havel la Roca, archienemigo de Seath el Descamado. \nHavel despreciaba la magia y nunca se cansó de buscar métodos que le permitieran contrarrestarla.",
       "versiones": [
         {
@@ -226,7 +226,7 @@
     },
     {
       "imagen": "gran_curacion",
-      "nombre": "Gran curacion",
+      "nombre": "Gran curación",
       "descripcion": "Milagro glorioso usado por clérigos de alto rango. \nRestablece una gran cantidad de PS del lanzador y de quienes se encuentran cerca. \n\nSolo unos pocos elegidos han aprendido a recitar este romance épico en su totalidad, pero aquellos que lo hacen son ampliamente recompensados.",
       "versiones": [
         {
@@ -239,7 +239,7 @@
     },
     {
       "imagen": "gran_lanza_relampago",
-      "nombre": "Gran lanza relampago",
+      "nombre": "Gran lanza relámpago",
       "descripcion": "Relato primigenio de 'Lanza relámpago', que trata de un Asesino de dragones ancestral. \nArroja una lanza de electricidad gigante. \n\nGwyn, el Primer Señor, mataba dragones con su lanza de luz solar, una tradición mantenida por su primogénito y la gran lanza que blandía. \n\nGran parte de este relato épico sobre un padre y un hijo no se ha narrado jamás.",
       "versiones": [
         {
@@ -304,7 +304,7 @@
     },
     {
       "imagen": "lanza_relampago",
-      "nombre": "Lanza relampago",
+      "nombre": "Lanza relámpago",
       "descripcion": "Milagro supuestamente utilizado por los Guerreros de la Luz Solar. \n\nArroja una lanza de electricidad. \n\nLa lanza inflige daño de electricidad, que sirve para neutralizar la magia y el fuego de manera efectiva. Es especialmente poderoso contra armaduras de metal y dragones.",
       "versiones": [
         {
@@ -356,7 +356,7 @@
     },
     {
       "imagen": "lagrimas_cariñosas",
-      "nombre": "Lagrimas cariñosas",
+      "nombre": "Lágrimas cariñosas",
       "descripcion": "Milagro enseñado por Morne, el apóstol del arzobispo. \n\nCura hemorragia, veneno y congelación para el lanzador y quienes se encuentren cerca. \n\nLágrimas cariñosas es una historia de las numerosas muertes que rodearon a la diosa Caitha, a quien se sabe que seguía Morne.",
       "versiones": [
         {
@@ -369,7 +369,7 @@
     },
     {
       "imagen": "lagrimas_de_negacion",
-      "nombre": "Lagrimas de negacion",
+      "nombre": "Lágrimas de negación",
       "descripcion": "Milagro enseñado por Morne, el apóstol del arzobispo. \n\nConcede la posibilidad de resistir cuando los PS llegan a 0. \n\nPensado para conceder a los moribundos unos momentos para su último adiós. Las lágrimas se derraman por los vivos, más que por los muertos.",
       "versiones": [
         {

@@ -15,7 +15,7 @@
     },
     {
       "imagen": "aliento_de_dragon_blanco",
-      "nombre": "Aliento de dragon blanco",
+      "nombre": "Aliento de dragón blanco",
       "descripcion": "Hechizo del crédulo Oceiros, el Rey Consumido. \n \nEmite aliento cristal de Seath el Descamado. \nEl aliento de cristal tiene propiedades perforadoras. \n\nParece que la investigación de Seath impactó al viejo Sombrero Grande, que en su loco y desnudo estado se apropió de obras divinas como esta. Sin duda Oceiros se sintió identificado con esto.",
       "versiones": [
         {
@@ -56,7 +56,7 @@
     },
     {
       "imagen": "arma_magica",
-      "nombre": "Arma magica",
+      "nombre": "Arma mágica",
       "descripcion": "Hechizo para hechiceros que blanden espadas. \nRefuerza el arma derecha con magia. \n\nEl poder de los espadachines hechiceros de Vinheim está contenido en este hechizo y el escudo mágico. Muchos guerreros aprenden magia solo por este hechizo.",
       "versiones": [
         {
@@ -69,7 +69,7 @@
     },
     {
       "imagen": "arma_magica_de_cristal",
-      "nombre": "Arma magica de cristal",
+      "nombre": "Arma mágica de cristal",
       "descripcion": "Mejora más el arma mágica mediante la cristalización. \nRefuerza el arma derecha con cristal. \n\nTras mucho experimentar, Logan descubrió que el medio de cristal facilitaba un vínculo más fuerte entre arma y alma.",
       "versiones": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "imagen": "camaleon",
-      "nombre": "Camaleon",
+      "nombre": "Camaleón",
       "descripcion": "Hechizo perdido de Oolacile, una tierra de antiguos hechizos dorados. \nTe transforma en algo que no llama la atención. \n\nLejos de estar desarrollada formalmente, esta magia es en realidad el resultado de la travesura de una joven que buscaba consuelo frente a la soledad de los bosques al anochecer.",
       "versiones": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "imagen": "escudo_magico",
-      "nombre": "Escudo magico",
+      "nombre": "Escudo mágico",
       "descripcion": "Hechizo para lanzadores que blanden espadas. Refuerza el escudo izquierdo con magia. \n\nLos escudos mejorados con magia poseen mayor estabilidad y absorción de daño. \n\nIncluso el escudo más pequeño puede endurecerse considerablemente con este conjuro.",
       "versiones": [
         {
@@ -200,7 +200,7 @@
     },
     {
       "imagen": "espadon_de_alma",
-      "nombre": "Espadon de alma",
+      "nombre": "Espadón de alma",
       "descripcion": "Hechizo creado principalmente para los espadachines hechiceros. \nAtaca con un espadón formado por almas. \n\nLa espada efímera solo existe como una extensión de su lanzador, pero se dice que su poder rivaliza con el de los espadones físicos. \nIncluso los puristas de la magia más obstinados pueden recurrir a este conjuro en momentos de necesidad.",
       "versiones": [
         {
@@ -265,7 +265,7 @@
     },
     {
       "imagen": "gran_arma_magica",
-      "nombre": "Gran arma magica",
+      "nombre": "Gran arma mágica",
       "descripcion": "Hechizo que mejora el arma mágica. \nRefuerza en gran medida el arma derecha con magia. \n\nSolo los espadachines hechiceros con obligaciones especiales están autorizados a usar este conjuro. \nCuentan que la espada celeste puede herir fácilmente a caballeros protegidos con armadura pesada.",
       "versiones": [
         {
@@ -291,7 +291,7 @@
     },
     {
       "imagen": "gran_escudo_magico",
-      "nombre": "Gran escudo magico",
+      "nombre": "Gran escudo mágico",
       "descripcion": "Hechizo que mejora el escudo mágico. \nRefuerza en gran medida el escudo izquierdo con magia. \n\nSolo los espadachines hechiceros con obligaciones especiales están autorizados a usar este conjuro, que concede temporalmente la fuerza de un escudo grande incluso a los escudos más pequeños.",
       "versiones": [
         {

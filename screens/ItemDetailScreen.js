@@ -116,7 +116,7 @@ function calcularEstadoDeProgreso(versiones) {
    Pantalla de detalle del ítem
    ========================================================= */
 const ItemDetailScreen = ({ route }) => {
-  const { itemDetails, onUpdateItem,  categoryId } = route.params;
+  const { itemDetails, onUpdateItem, categoryId } = route.params;
 
   const [versions, setVersions] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -281,7 +281,9 @@ const ItemDetailScreen = ({ route }) => {
       >
         {/* Encabezado */}
         <View style={styles.header}>
-          <Text style={styles.itemName}>{itemDetails.nombre}</Text>
+          <Text style={styles.itemName}>
+            {quitarAcentos(itemDetails.nombre)}
+          </Text>
           <Text style={styles.itemSubtitle}>Registro del códice</Text>
         </View>
 
@@ -405,6 +407,11 @@ const ItemDetailScreen = ({ route }) => {
 function capitalizar(str = '') {
   return str.charAt(0).toUpperCase() + str.slice(1);
 }
+
+function quitarAcentos(str = '') {
+  return str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+}
+
 
 /* =========================================================
    Estilos

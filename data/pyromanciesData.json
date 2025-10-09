@@ -94,7 +94,7 @@
     },
     {
       "imagen": "carne_ferrea",
-      "nombre": "Carne ferrea",
+      "nombre": "Carne férrea",
       "descripcion": "Piromancia que interioriza la llama. \n\nCarne férrea potencia la absorción de daño y la resistencia, pero aumenta el peso de forma considerable. \n\nNo es aconsejable para caminar por ciénagas, quizá por eso no se emplea en el Gran Pantano.",
       "versiones": [
         {
@@ -120,7 +120,7 @@
     },
     {
       "imagen": "compenetracion",
-      "nombre": "Compenetracion",
+      "nombre": "Compenetración",
       "descripcion": "Piromancia avanzada de Quelana, hija de la bruja de Izalith. \n\nHechiza al enemigo y lo transforma en un aliado temporal. \n\nLos vivos se sienten atraídos por la llama, y esta tendencia es elemental para el arte de la piromancia.",
       "versiones": [
         {
@@ -211,7 +211,7 @@
     },
     {
       "imagen": "latigo_de_fuego",
-      "nombre": "Latigo de fuego",
+      "nombre": "Látigo de fuego",
       "descripcion": "Piromancia primigenia enseñada por Quelana, hija de la bruja de Izalith. \nBarre a los enemigos con un látigo de fuego. \n\nEl lanzador manipula las llamas a voluntad, haciendo que sea un conjuro especialmente difícil de utilizar. \n\nLa piromancia requiere saber al mismo tiempo cómo controlar la llama y que el control es imposible.",
       "versiones": [
         {
@@ -224,7 +224,7 @@
     },
     {
       "imagen": "neblina_toxica",
-      "nombre": "Neblina toxica",
+      "nombre": "Neblina tóxica",
       "descripcion": "Piromancia única de Eingyi que nunca se extendió por el Gran Pantano. \n\nCrea una intensa neblina tóxica. \n\nCuentan que, tras ser expulsado del Gran Pantano, al final de su viaje, Eingyi se topó con un virulento veneno y una joven doncella.",
       "versiones": [
         {
@@ -250,7 +250,7 @@
     },
     {
       "imagen": "oleada_acida",
-      "nombre": "Oleada acida",
+      "nombre": "Oleada ácida",
       "descripcion": "Piromancia de Carthus de las Arenas. \nEmite ácido que corroe armas y armaduras. \n\nLos espadachines de Carthus valoraban mucho la victoria y no evitaban usar tales piromancias. \nAl fin y al cabo, ¿qué tipo de honor hay en la muerte y los huesos descarnados?",
       "versiones": [
         {
